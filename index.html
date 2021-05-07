@@ -1355,41 +1355,11 @@
   </body>
   <script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/owl.carousel.min.js"></script><!--响应式的商品滚动插件-->
+  <script src="js/global.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/jquery.flexslider-min.js"></script>
   	<script src="js/jquery.slider.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript">
   	$(function () {
-	  	//二级导航显示隐藏
-	    $('.m-categorys').hover(function(){
-	    	$('.m-meun').addClass('show');
-	    },function(){
-	    	$('.m-meun').removeClass('show');
-	    });
-	    $('.m-meun .m-itme').hover(function(){
-	    	$(this).addClass('active');
-	    },function(){
-	    	$(this).removeClass('active');
-	    })
-	    
-	    $('.m-meun .m-three li').hover(function(){
-	    	 $(this).addClass('active');
-	    },function(){
-	    	$(this).removeClass('active');
-	    })
-  		// 顶部公告切换
-			if($('.y_choicelist.owl-carousel').length && $.fn.owlCarousel){
-				$('.y_choicelist.owl-carousel').owlCarousel({
-				   items:1,
-				   itemsDesktop:false,
-				   itemsDesktopSmall:false,
-				   itemsTablet:false,
-				   navigation: true,
-				   navigationText: false,
-				   pagination: false,
-				   slideSpeed: 500
-			  });
-			};
-			
 			// 热销商品-左侧
 			if($('.hot-cout-mian.owl-carousel').length && $.fn.owlCarousel){
 				$('.hot-cout-mian.owl-carousel').owlCarousel({

@@ -976,6 +976,7 @@ strong{font-weight: normal;}
 	line-height: 20px;
 	font-size: 14px;
 	color: #999;
+	position: relative;
 }
 .crumb .icon-bram{
 	display: inline-block;
@@ -991,6 +992,24 @@ strong{font-weight: normal;}
 }
 .crumb a:hover {
 	color: #F26D00;
+}
+.purchase-notice {
+	position: absolute;
+	top: 20px;
+	right: 0;
+	font-size: 14px;
+	line-height: 20px;
+}
+.purchase-notice a {
+	color: #F26D00;
+}
+.purchase-notice i {
+	display: inline-block;
+	width: 14px;
+	height: 16px;
+	background: url(../imgs/de-remark.png) no-repeat;
+	position: relative;
+	top: 1px;
 }
 
 /*翻页*/
@@ -1081,4 +1100,37 @@ strong{font-weight: normal;}
 .y_page .y_page-btn {
 	padding: 0 10px;
 	margin-left: 5px;
+}
+
+/*数量加减*/
+.y_saleleng {
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #DCDCDC;
+}
+.y_saleleng a, .y_saleleng input {
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	overflow: hidden;
+	text-align: center;
+	font-size: 20px;
+	color: #979797;
+	background-color: #fff;
+}
+.y_saleleng a {
+	font-size: 30px;
+	width: 38px;
+	font-weight: 300;
+}
+.y_saleleng input {
+	font-size: 14px;
+	width: 60px;
+	border: none;
+	border-left: 1px solid #DCDCDC;
+	border-right: 1px solid #DCDCDC;
+}
+.y_saleleng a:hover {
+	text-decoration: none;
+	color: #666;
 }

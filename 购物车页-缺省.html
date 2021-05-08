@@ -2,7 +2,7 @@
 <html>
 	<head>
 	    <meta charset="UTF-8" />
-	    <title>购物车</title>
+	    <title>购物车-缺省</title>
 	    <link rel="stylesheet" type="text/css" href="./css/common.css" />
 	    <link rel="stylesheet" type="text/css" href="./css/cart.css" />
 	  </head>
@@ -127,171 +127,21 @@
         </div>
         <!--搜索栏 end-->
         
-        <!--下单进度-->
-        <div class="g-container">
-        	<div class="jp-content">
-        		<div class="cart-process">
-        			<div class="cart-process-line"></div>
-        			<div class="cart-process-item cart-process-item1 current">
-        				<div class="cart-process-dots">1</div>
-        				<p>Cart</p>
-        			</div>
-        			<div class="cart-process-item cart-process-item2">
-        				<div class="cart-process-dots">2</div>
-        				<p>Check order & service</p>
-        			</div>
-        			<div class="cart-process-item cart-process-item3">
-        				<div class="cart-process-dots">3</div>
-        				<p>Payment</p>
-        			</div>
+        <!--购物车空-->
+        <div class="jp-content">
+        	<div class="cart-empty">
+        		<div class="cart-empty-img">
+        			<img src="imgs/cart-empty.png" alt="" />
+        		</div>
+        		<p>The shopping cart is empty<br/>start your shopping journey!</p>
+        		<div class="lay-top-search">
+        			<input type="text" placeholder="Search with product URL or product name" />
+        			<a href="javascript:;" class="top-search-btn"></a>
+        			<div class="top-search-tip">Custom purchasing</div>
         		</div>
         	</div>
         </div>
-        
-        <!--购物车table-->
-				<div class="g-container">
-					<div class="jp-content">
-						<div class="cart-thead clearfix">
-							<div class="cart-col-1"><i class="icon-select"></i></div>
-							<div class="cart-col-2"><span>Selected All</span><span>Product name</span></div>
-							<div class="cart-col-3"><span>Unit Price</span></div>
-							<div class="cart-col-4"><span>Quantity</span></div>
-							<div class="cart-col-5"><span>Subtotal</span></div>
-							<div class="cart-col-6"><span>Remarks</span></div>
-							<div class="cart-col-7"><span>Operation</span></div>
-						</div>
-						
-						<div class="cart-tbody">
-							<div class="cart-tbody-title clearfix">
-								<i class="fl icon-select current"></i><span>Okela flagship store</span>
-							</div>
-							<div class="cart-tbody-tr clearfix">
-								<div class="cart-col-1"><i class="icon-select current"></i></div>
-								<div class="cart-col-2">
-									<div class="clearfix">
-										<div class="m-pic"><a href="javascript:;"><img src="imgs/demo/de-pro4.png"/></a></div>
-										<p class="product-name"><a href="##">Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super fire thick-soled wisdom smoked casual sneakers 251</a></p>
-										<div class="cart-list-edit">
-											<p title="Colour: Black">Colour: Black</p>
-											<p title="Size: L">Size: L</p>
-										</div>
-									</div>
-								</div>
-								<div class="cart-col-3"><p class="base-price">$482.98</p></div>
-								<div class="cart-col-4">
-									<span class="y_saleleng"><a href="#">-</a><input type="text" value="1"><a href="#">+</a></span>
-								</div>
-								<div class="cart-col-5"><p class="base-color">$482.98</p></div>
-								<div class="cart-col-6"><i class="icon-markets"></i></div>
-								<div class="cart-col-7">
-									<div class="cart-operats">
-										<a href="##">Favorites</a>
-										<a href="##">Delete</a>
-									</div>
-								</div>
-							</div>
-							
-							<div class="cart-tbody-tr clearfix">
-								<div class="cart-col-1"><i class="icon-select current"></i></div>
-								<div class="cart-col-2">
-									<div class="clearfix">
-										<div class="m-pic"><a href="javascript:;"><img src="imgs/demo/de-pro3.png"/></a></div>
-										<p class="product-name"><a href="##">Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super fire thick-soled wisdom smoked casual sneakers 251</a></p>
-										<div class="cart-list-edit">
-											<p title="Colour: Black">Colour: Black</p>
-											<p title="Size: L">Size: L</p>
-										</div>
-									</div>
-								</div>
-								<div class="cart-col-3"><p class="base-price">$482.98</p></div>
-								<div class="cart-col-4">
-									<span class="y_saleleng"><a href="#">-</a><input type="text" value="1"><a href="#">+</a></span>
-								</div>
-								<div class="cart-col-5"><p class="base-color">$482.98</p></div>
-								<div class="cart-col-6"><i class="icon-markets"></i></div>
-								<div class="cart-col-7">
-									<div class="cart-operats">
-										<a href="##">Favorites</a>
-										<a href="##">Delete</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						<div class="cart-tbody">
-							<div class="cart-tbody-title clearfix">
-								<i class="fl icon-select"></i><span>Okela flagship store</span>
-							</div>
-							<div class="cart-tbody-tr clearfix">
-								<div class="cart-col-1"><i class="icon-select"></i></div>
-								<div class="cart-col-2">
-									<div class="clearfix">
-										<div class="m-pic"><a href="javascript:;"><img src="imgs/demo/de-pro4.png"/></a></div>
-										<p class="product-name"><a href="##">Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super fire thick-soled wisdom smoked casual sneakers 251</a></p>
-										<div class="cart-list-edit">
-											<p title="Colour: Black">Colour: Black</p>
-											<p title="Size: L">Size: L</p>
-										</div>
-									</div>
-								</div>
-								<div class="cart-col-3"><p class="base-price">$482.98</p></div>
-								<div class="cart-col-4">
-									<span class="y_saleleng"><a href="#">-</a><input type="text" value="1"><a href="#">+</a></span>
-								</div>
-								<div class="cart-col-5"><p class="base-color">$482.98</p></div>
-								<div class="cart-col-6"><i class="icon-markets"></i></div>
-								<div class="cart-col-7">
-									<div class="cart-operats">
-										<a href="##">Favorites</a>
-										<a href="##">Delete</a>
-									</div>
-								</div>
-							</div>
-							
-							<div class="cart-tbody-tr clearfix">
-								<div class="cart-col-1"><i class="icon-select"></i></div>
-								<div class="cart-col-2">
-									<div class="clearfix">
-										<div class="m-pic"><a href="javascript:;"><img src="imgs/demo/de-pro3.png"/></a></div>
-										<p class="product-name"><a href="##">Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super fire thick-soled wisdom smoked casual sneakers 251</a></p>
-										<div class="cart-list-edit">
-											<p title="Colour: Black">Colour: Black</p>
-											<p title="Size: L">Size: L</p>
-										</div>
-									</div>
-								</div>
-								<div class="cart-col-3"><p class="base-price">$482.98</p></div>
-								<div class="cart-col-4">
-									<span class="y_saleleng"><a href="#">-</a><input type="text" value="1"><a href="#">+</a></span>
-								</div>
-								<div class="cart-col-5"><p class="base-color">$482.98</p></div>
-								<div class="cart-col-6"><i class="icon-markets"></i></div>
-								<div class="cart-col-7">
-									<div class="cart-operats">
-										<a href="##">Favorites</a>
-										<a href="##">Delete</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- 购物车结算 -->
-				<div class="jp-content">
-					<div class="y_cartbalancebox">
-						<div class="y_cartbalance">
-							<label class="y_checkbox"><i class="icon-select"></i>Select all</label>
-							<a class="y_balanclink" href="##">Delete</a>
-							<a class="y_balanclink" href="##">Add to Favourite</a>
-							<a class="butn butn_custom" href="##">confirm</a>
-							<div class="y_carttotle">
-								<span>The total amount<span>3</span></span>
-								<span>Total (excluding freight):<span>$482.98</span></span>
-							</div>
-						</div>
-					</div>
-				</div><!-- 购物车结算 end -->
+        <!--购物车空 end-->
 				
 				<!--推荐商品 start-->
 				<div class="jp-content">

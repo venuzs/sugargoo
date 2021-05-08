@@ -43,6 +43,9 @@ strong{font-weight: normal;}
     content: " ";
     clear:both;
 }
+.mt_60 {
+	margin-top: 60px;
+}
 /*owl-carousel 响应式商品切换基础css*/
 .owl-carousel {
 	display: none;
@@ -1133,4 +1136,126 @@ strong{font-weight: normal;}
 .y_saleleng a:hover {
 	text-decoration: none;
 	color: #666;
+}
+
+/*推荐商品*/
+
+.product-recommend-list {
+	margin: 15px 0;
+	background-color: #fff;
+	padding: 20px 30px 10px 50px;
+}
+.product-recommend-list .list-recommend-head {
+	padding: 8px 0 7px;
+	line-height: 35px;
+	border-bottom: 1px solid #DCDCDC;
+	overflow: hidden;
+	background-color: #fff;
+}
+.product-recommend-list .list-recommend-head .fl {
+	font-size: 16px;
+	color: #333;
+	line-height: 35px;
+	font-weight: bold;
+}
+.product-recommend-list .list-recommend-head .fl span {
+	margin-right: 25px;
+	cursor: pointer;
+}
+.product-recommend-list .list-recommend-head .fl span.active {
+	color: #F26D00;
+	position: relative;
+}
+.product-recommend-list .list-recommend-head .fl span.active::after {
+	content: '';
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+	right: 0;
+	height: 6px;
+	background-color: #F26D00;
+}
+.product-recommend-list .list-recommend-head .fr a {
+	display: block;
+	padding-right: 20px;
+	font-size: 12px;
+	background: url(../imgs/top-r.png) 92% center no-repeat;
+	transition: transform 0.2s;
+}
+.product-recommend-list .list-recommend-head .fr a:hover {
+	transform: translateX(3px);
+}
+
+.product-recommend-list h6 {
+	font-size: 16px;
+	line-height: 22px;
+	color: #333;
+	font-weight: bold;
+	margin-left: -22px;
+}
+.product-recommend-list .y_colloclist li {
+	width: 200px;
+	padding-bottom: 30px;
+	padding-top: 17px;
+}
+.product-recommend-list .y_colloclist li .y_pic {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin-bottom: 17px;
+}
+.product-recommend-list .y_colloclist li .y_name {
+	font-size: 14px;
+	line-height: 20px;
+	height: 60px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	margin-bottom: 15px;
+}
+.product-recommend-list .y_colloclist li .y_name:hover {
+	color: #F26D00;
+}
+
+.product-recommend-list .y_colloclist li .color_0b285b {
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: bold;
+	color: #F26D00;
+}
+.product-recommend-list .y_colloclist.owl-theme .owl-buttons div {
+	width: 25px;
+	height: 60px;
+	margin-top: -30px;
+}
+.product-recommend-list .y_colloclist.owl-theme .owl-buttons .owl-prev {
+    left: -50px;
+    background: url(../imgs/de-left.png) center no-repeat;
+}
+.product-recommend-list .y_colloclist.owl-theme .owl-buttons .owl-next {
+    right: -30px;
+    background: url(../imgs/de-right.png) center no-repeat;
+}
+.product-recommend-list .y_colloclist-atvr {
+	overflow: hidden;
+	zoom: 1;
+}
+.product-recommend-list .y_colloclist-atvr .m-pic {
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 10px;
+}
+.product-recommend-list .y_colloclist-atvr p {
+	float: left;
+	font-size: 12px;
+	color: #F26D00;
+	line-height: 30px;
+	height: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }

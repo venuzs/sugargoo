@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8" />
+	    <title>订单确认页</title>
+	    <link rel="stylesheet" type="text/css" href="./css/common.css" />
+	    <link rel="stylesheet" type="text/css" href="./css/cart.css" />
+    	<link rel="stylesheet" type="text/css" href="./css/jquery.slider.css" />
+	    
+	  </head>
+	<body>
+		<div class="page">
+		  <!--顶部广告 start-->
+	      <div class="jp-content">
+	        <div class="layer1">
+	          <img src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng650df88d9021516ea7367705d9dbf8eb86b59f1706044029d9a56acfcbd57d9f"/>
+	          <div class="section1">
+	            <span class="word1">
+	              MAKE IT EASY FOR GLOBAL “FROM CHINA TO GLOBAL”
+	            </span>
+	            <span class="info1">VIP member shipping 80%</span>
+	          </div>
+	        </div>
+         </div>
+         <!--顶部广告 end-->
+         <!--头部信息栏 start-->
+        <div class="layer2">
+        	<div class="jp-content">
+        		<div class="clearfix">
+		        	<div class="fl">
+		        		<div class="layer2-item">
+		        			<div class="layer2-info">
+		        				<span class="clrf26">Cuttency Management</span>
+		        				<i class="icon-down"></i>
+		        			</div>
+		        			<div class="layer2-drop">
+		        				<ul>
+		        					<li>Management</li>
+		        					<li>Cuttency</li>
+		        				</ul>
+		        			</div>
+		        		</div>
+		        		<div class="layer2-item">
+		        			<div class="layer2-info">
+		        				<span>English</span>
+		        				<i class="icon-down"></i>
+		        			</div>
+		        			<div class="layer2-drop">
+		        				<ul>
+		        					<li>简体中文</li>
+		        					<li>русский</li>
+		        					<li>한국어.</li>
+		        				</ul>
+		        			</div>
+		        		</div>
+		        		<div class="layer2-item-slides">
+		        			<ul class="y_choicelist owl-carousel">
+		        				<li>
+		        					<span>Announcement</span>
+		        					<font>：Register to receive a 280 yuan shipping coupon package</font>
+		        				</li>
+		        				<li>
+		        					<span>Announcement</span>
+		        					<font>：Register to receive a 280 yuan shipping coupon package</font>
+		        				</li>
+		        				<li>
+		        					<span>Announcement</span>
+		        					<font>：Register to receive a 280 yuan shipping coupon package</font>
+		        				</li>
+		        			</ul>
+		        		</div>
+		        	</div>
+		        	<div class="fr">
+		        		<div class="layer2-item">
+		        			<div class="layer2-info">
+		        				<span>Help Center</span>
+		        				<i class="icon-down"></i>
+		        			</div>
+		        			<div class="layer2-drop">
+		        				<ul>
+		        					<li>简体中文</li>
+		        					<li>русский</li>
+		        					<li>한국어.</li>
+		        				</ul>
+		        			</div>
+		        		</div>
+		        		<div class="layer2-item">
+		        			<div class="layer2-info">
+		        				<span>Tool</span>
+		        				<i class="icon-down"></i>
+		        			</div>
+		        			<div class="layer2-drop">
+		        				<ul>
+		        					<li>简体中文</li>
+		        					<li>русский</li>
+		        					<li>한국어.</li>
+		        				</ul>
+		        			</div>
+		        		</div>
+		        		<div class="layer2-item">
+		        			<div class="layer2-info">
+		        				<i class="icon-phone"></i>
+		        				<span>Download App</span>
+		        				<i class="icon-down"></i>
+		        			</div>
+		        			<div class="layer2-drop">
+		        				<div class="m-pic">
+		        					<img src="imgs/ewm.png" alt="" />
+		        				</div>
+		        			</div>
+		        		</div>
+		        	</div>
+	        	</div>
+	        </div>
+        </div>
+        <!--头部信息栏 end-->
+        <!--搜索栏 start-->
+        <div class="g-container" style="background-color: #f0f2f5;">
+	        <div class="jp-content">
+	        	<div class="clearfix">
+	        		<div class="lay-logo">
+	        			<a href="javascript:;">
+	        				<img src="imgs/logo.png" alt="" />
+	        			</a>
+	        			<h1>sugargoo</h1>
+	        		</div>
+	        	</div>
+	        </div>
+        </div>
+        <!--搜索栏 end-->
+        
+        <!--下单进度-->
+        <div class="g-container">
+        	<div class="jp-content">
+        		<div class="cart-process">
+        			<div class="cart-process-line"></div>
+        			<div class="cart-process-item cart-process-item1 current">
+        				<div class="cart-process-dots">1</div>
+        				<p>Cart</p>
+        			</div>
+        			<div class="cart-process-item cart-process-item2 current">
+        				<div class="cart-process-dots">2</div>
+        				<p>Check order & service</p>
+        			</div>
+        			<div class="cart-process-item cart-process-item3">
+        				<div class="cart-process-dots">3</div>
+        				<p>Payment</p>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        
+        <!--购物车table-->
+				<div class="g-container">
+					<div class="jp-content">
+						<div class="cart-thead confrim-thead clearfix">
+							<div class="cart-col-8"><span>Product information</span></div>
+							<div class="cart-col-9"><span>Quantity</span></div>
+							<div class="cart-col-10"><span>Unit Price</span></div>
+							<div class="cart-col-11"><span>Priority purchase</span> <font title="Priority purchase">?</font></div>
+							<div class="cart-col-12"><span>Original inspection </span> <font>?</font></div>
+							<div class="cart-col-13"><span>Surprise photo</span> <font>?</font></div>
+						</div>
+						
+						<div class="cart-tbody confrim-tbody">
+							<div class="cart-tbody-title clearfix">
+								<span>Okela flagship store</span><label>Domestic freight:$8</label><font title="Domestic freight:$8">?</font>
+							</div>
+							<div class="cart-tbody-tr clearfix">
+								<div class="cart-col-8">
+									<div class="clearfix">
+										<div class="m-pic"><a href="javascript:;"><img src="imgs/demo/de-pro4.png"/></a></div>
+										<p class="product-name">Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super fire thick-soled wisdom smoked casual sneakers 251</p>
+										<div class="product-attr">
+											<span>Colour: Black</span><span>Size: L</span>
+										</div>
+									</div>
+								</div>
+								<div class="cart-col-9"><p class="base-price">1</p></div>
+								<div class="cart-col-10"><p class="base-color">$482.98</p></div>
+								<div class="cart-col-11"><i class="icon-select current"></i></div>
+								<div class="cart-col-12"><i class="icon-select current"></i></div>
+								<div class="cart-col-13"><i class="icon-select"></i></i></div>
+							</div>
+							
+							<div class="cart-tbody-tr clearfix">
+								<div class="cart-col-8">
+									<div class="clearfix">
+										<div class="m-pic"><a href="javascript:;"><img src="imgs/demo/de-pro4.png"/></a></div>
+										<p class="product-name">Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super fire thick-soled wisdom smoked casual sneakers 251</p>
+										<div class="product-attr">
+											<span>Colour: Black</span><span>Size: L</span>
+										</div>
+									</div>
+								</div>
+								<div class="cart-col-9"><p class="base-price">1</p></div>
+								<div class="cart-col-10"><p class="base-color">$482.98</p></div>
+								<div class="cart-col-11"><i class="icon-select current"></i></div>
+								<div class="cart-col-12"><i class="icon-select"></i></div>
+								<div class="cart-col-13"><i class="icon-select current"></i></i></div>
+							</div>
+							
+						</div>
+						
+						<div class="cart-tbody confrim-tbody">
+							<div class="cart-tbody-title clearfix">
+								<span>Okela flagship store</span><label>Domestic freight:$8</label><font title="Domestic freight:$8">?</font>
+							</div>
+							<div class="cart-tbody-tr clearfix">
+								<div class="cart-col-8">
+									<div class="clearfix">
+										<div class="m-pic"><a href="javascript:;"><img src="imgs/demo/de-pro4.png"/></a></div>
+										<p class="product-name">Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super fire thick-soled wisdom smoked casual sneakers 251</p>
+										<div class="product-attr">
+											<span>Colour: Black</span><span>Size: L</span>
+										</div>
+									</div>
+								</div>
+								<div class="cart-col-9"><p class="base-price">1</p></div>
+								<div class="cart-col-10"><p class="base-color">$482.98</p></div>
+								<div class="cart-col-11"><i class="icon-select current"></i></div>
+								<div class="cart-col-12"><i class="icon-select current"></i></div>
+								<div class="cart-col-13"><i class="icon-select"></i></i></div>
+							</div>
+							
+							<div class="cart-tbody-tr clearfix">
+								<div class="cart-col-8">
+									<div class="clearfix">
+										<div class="m-pic"><a href="javascript:;"><img src="imgs/demo/de-pro4.png"/></a></div>
+										<p class="product-name">Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super fire thick-soled wisdom smoked casual sneakers 251</p>
+										<div class="product-attr">
+											<span>Colour: Black</span><span>Size: L</span>
+										</div>
+									</div>
+								</div>
+								<div class="cart-col-9"><p class="base-price">1</p></div>
+								<div class="cart-col-10"><p class="base-color">$482.98</p></div>
+								<div class="cart-col-11"><i class="icon-select current"></i></div>
+								<div class="cart-col-12"><i class="icon-select"></i></div>
+								<div class="cart-col-13"><i class="icon-select current"></i></i></div>
+							</div>
+							
+						</div>
+						
+					</div>
+				</div>
+				<!--购物车table end-->
+				
+				<!--独家采购专家-->
+				<div class="jp-content">
+					<div class="exclusive-procur-wap">
+						<div class="exclusive-procur-head">
+							<h6>Exclusive procurement expert</h6>
+							<p>The platform will assign you a purchasing staff for free by default, and you can also choose your exclusive purchasing expert.</p>
+						</div>
+						<div class="hot-cout-rwap">
+								<ul class="hot-cout-rmain">
+									<li class="slide">
+										<i class="fl icon-select current"></i>
+										<div class="fl m-pic">
+											<img src="imgs/demo/hot-avtr.png" alt="" />
+										</div>
+										<h6>Tracy</h6>
+										<div class="fl comment-dots">
+											<span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span>
+										</div>
+										<p class="p1"><font>800 times</font> of service</p>
+										<p class="p1"><font>681 days</font> of service</p>
+										<p class="p2"><font>1866 praise</font></p>
+										<p class="p3">high service efficiency, <font>attentive</font> and <font>thoughtful</font></p>
+									</li>
+									<li class="slide">
+										<i class="fl icon-select"></i>
+										<div class="fl m-pic">
+											<img src="imgs/demo/hot-avtr.png" alt="" />
+										</div>
+										<h6>Tracy</h6>
+										<div class="fl comment-dots">
+											<span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span>
+										</div>
+										<p class="p1"><font>800 times</font> of service</p>
+										<p class="p1"><font>681 days</font> of service</p>
+										<p class="p2"><font>1866 praise</font></p>
+										<p class="p3">high service efficiency, <font>attentive</font> and <font>thoughtful</font></p>
+									</li>
+									<li class="slide">
+										<i class="fl icon-select current"></i>
+										<div class="fl m-pic">
+											<img src="imgs/demo/hot-avtr.png" alt="" />
+										</div>
+										<h6>Tracy</h6>
+										<div class="fl comment-dots">
+											<span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span>
+										</div>
+										<p class="p1"><font>800 times</font> of service</p>
+										<p class="p1"><font>681 days</font> of service</p>
+										<p class="p2"><font>1866 praise</font></p>
+										<p class="p3">high service efficiency, <font>attentive</font> and <font>thoughtful</font></p>
+									</li>
+									<li class="slide">
+										<i class="fl icon-select"></i>
+										<div class="fl m-pic">
+											<img src="imgs/demo/pro-s1.png" alt="" />
+										</div>
+										<h6>Tracy</h6>
+										<div class="fl comment-dots">
+											<span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span>
+										</div>
+										<p class="p1"><font>800 times</font> of service</p>
+										<p class="p1"><font>681 days</font> of service</p>
+										<p class="p2"><font>1866 praise</font></p>
+										<p class="p3">high service efficiency, <font>attentive</font> and <font>thoughtful</font></p>
+									</li>
+									<li class="slide">
+										<i class="fl icon-select"></i>
+										<div class="fl m-pic">
+											<img src="imgs/demo/hot-avtr.png" alt="" />
+										</div>
+										<h6>Tracy</h6>
+										<div class="fl comment-dots">
+											<span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span>
+										</div>
+										<p class="p1"><font>800 times</font> of service</p>
+										<p class="p1"><font>681 days</font> of service</p>
+										<p class="p2"><font>1866 praise</font></p>
+										<p class="p3">high service efficiency, <font>attentive</font> and <font>thoughtful</font></p>
+									</li>
+									<li class="slide">
+										<i class="fl icon-select"></i>
+										<div class="fl m-pic">
+											<img src="imgs/demo/pro-s1.png" alt="" />
+										</div>
+										<h6>Tracy</h6>
+										<div class="fl comment-dots">
+											<span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span>
+										</div>
+										<p class="p1"><font>800 times</font> of service</p>
+										<p class="p1"><font>681 days</font> of service</p>
+										<p class="p2"><font>1866 praise</font></p>
+										<p class="p3">high service efficiency, <font>attentive</font> and <font>thoughtful</font></p>
+									</li>
+									<li class="slide">
+										<i class="fl icon-select"></i>
+										<div class="fl m-pic">
+											<img src="imgs/demo/pro-s1.png" alt="" />
+										</div>
+										<h6>Tracy</h6>
+										<div class="fl comment-dots">
+											<span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span>
+										</div>
+										<p class="p1"><font>800 times</font> of service</p>
+										<p class="p1"><font>681 days</font> of service</p>
+										<p class="p2"><font>1866 praise</font></p>
+										<p class="p3">high service efficiency, <font>attentive</font> and <font>thoughtful</font></p>
+									</li>
+								</ul>
+							</div>
+					</div>
+				</div>
+				<!--独家采购专家 end-->
+				
+				<!--结算清单-->
+				<div class="jp-content">
+					<div class="order-list">
+						<ol>
+							<li>Procurement expert <span>$20</span></li>
+							<li>Priority purchase <span>$10</span></li>
+							<li>Surprise photo <span>$5</span></li>
+							<li>Domestic freight <span>$16</span></li>
+							<li>coupon <span>-$110</span></li>
+							<li><i class="icon-select current"></i>Authorized deduction for the difference?</li>
+							<li><i class="icon-select current"></i>I have read and agree to the <a href="javascript:;">《 Sugargoo Disclaimer 》</a> </li>
+						</ol>
+					</div>
+				</div>
+				
+				<!--提交订单-->
+				<div class="jp-content">
+					<div class="to-balance-wap">
+						<a href="javascript:;">confirm</a> <!--.disabled 不可点-->
+						<p>Total: <span>$482.98</span></p>
+					</div>
+				</div>
+		
+			<div class="g-container g-baseCont mt_60">
+				<div class="jp-content">
+					<h6>Professional purchasing platform</h6>
+					<p>Enjoy the most intimate purchasing service and transshipment service, manage your merchandise orders throughout the process</p>
+				</div>
+			</div>
+			
+			<!--底部导航-->
+			<div class="g-container" >
+				<div class="bg-000">
+					<div class="jp-content">
+						<div class="m-footernav">
+							<div class="col-md-12">
+								<div class="g-bd2 f-cb">
+									<div class="g-mn2">
+										<div class="g-mn2c">
+											<div class="footer-nav">
+												<dl>
+													<dt>Shopping guide</dt>
+													<dd><a href="##">Novice guide</a></dd>
+													<dd><a href="##">Purchasing demo</a></dd>
+													<dd><a href="##">Transshipment demo</a></dd>
+													<dd><a href="##">payment method</a></dd>
+													<dd><a href="##">Freight estimate</a></dd>
+												</dl>
+												<dl>
+													<dt>Customer service</dt>
+													<dd><a href="##">common problem</a></dd>
+													<dd><a href="##">Online consultation</a></dd>
+													<dd><a href="##">Order processing</a></dd>
+													<dd><a href="##">After-sales service</a></dd>
+													<dd><a href="##">Help center</a></dd>
+												</dl>
+												<dl>
+													<dt>About us</dt>
+													<dd><a href="##">Company Profile</a></dd>
+													<dd><a href="##">Latest Announcement</a></dd>
+													<dd><a href="##">service hours</a></dd>
+													<dd><a href="##">Business cooperation</a></dd>
+													<dd><a href="##">contact us</a></dd>
+												</dl>
+												<dl class="icon-footenter">
+													<dt>Social</dt>
+													<dd><a href="##"><img src="imgs/tik.png" alt="" /></a></dd>
+													<dd><a href="##"><img src="imgs/wechat.png" alt="" /></a></dd>
+													<dd><a href="##"><img src="imgs/tik.png" alt="" /></a></dd>
+													<dd><a href="##"><img src="imgs/tik.png" alt="" /></a></a></dd>
+													<dd><a href="##"><img src="imgs/tik.png" alt="" /></a></a></dd>
+													<dd><a href="##"><img src="imgs/tik.png" alt="" /></a></a></dd>
+												</dl>
+										    </div>
+										</div>
+									</div>
+									<div class="g-sd2">
+										<div class="m-contact">
+											<p class="p1">Download App</p>
+											<p class="p2">Scan the QR code or download the application directly from the APP store </p>
+											<div class="clearfix">
+												<div class="fl">
+													<img src="imgs/ewm.png" alt="" />
+												</div>
+												<div class="m-contact-fl">
+													<a href="javascript:;">
+														<img src="imgs/btm-app.png" alt="" />
+													</a>
+													<a href="javascript:;">
+														<img src="imgs/btm-google.png" alt="" />
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--底部导航 end-->
+			
+			<div class="g-container">
+				<div class="bg-000 bg-foot-000">
+					<div class="jp-content">
+						<div class="footer-txt">
+							<p>Specially provide overseas Chinese with Taobao, JD, Dangdang and other Chinese shopping website products, provide books, specialty products, cosmetics and other products on behalf of various products, support paypal, Alipay and other payment methods</p>
+							<p>Copyright © 2004 - 2021  Shenzhen Suargoo Technology Co., Ltd.</p>
+						</div>
+
+					</div>	
+        </div>
+      </div>  
+	</body>
+  <script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/owl.carousel.min.js"></script><!--响应式的商品滚动插件-->
+	<script src="js/global.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.slider.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function () {
+			 
+			$('.icon-select').click(function () {
+				$(this).toggleClass('current')
+			})
+			
+			// 独家采购专家 滑动
+			$('.hot-cout-rmain').bxSlider({
+				mode: 'vertical',
+		    moveSlides: 3,
+		    maxSlides: 3,
+		    minSlides: 3,
+		  });
+		})
+	</script>
+</html>

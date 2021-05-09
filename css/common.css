@@ -1073,6 +1073,7 @@ strong{font-weight: normal;}
 	-webkit-background-size: 6px 12px;
 	background-size: 6px 12px;
 }
+.disabled,
 .y_page .y_btn.disabled {
 	background-color:#eee;
 	color:#bbb;

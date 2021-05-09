@@ -852,3 +852,61 @@
 	background-color: #F26D00;
 	margin-top: 5px;
 }
+
+/*支付成功页*/
+.pay-suc-wap {
+	padding: 58px 50px;
+	text-align: center;
+	margin-top: 50px;
+	background-color: #fff;
+	font-size: 14px;
+	line-height: 20px;
+}
+.pay-suc-wap .m-pic {
+	width: 60px;
+	height: 60px;
+	margin: 0 auto 26px;
+	border-radius: 50%;
+	background-color: #F26D00;
+	position: relative;
+}
+.pay-suc-wap .m-pic::after{
+	content: '';
+	position: absolute;
+	top: 17px;
+	left: 18px;
+	width: 26px;
+	height: 13px;
+	border: 2px solid #fff;
+	border-top: none;
+	border-right: none;
+	transform: rotate(-45deg);
+}
+.pay-suc-wap h5 {
+	font-size: 24px;
+	line-height: 33px;
+	font-weight: 600;
+	color: #F26D00;
+	margin-bottom: 5px;
+}
+.pay-suc-wap a {
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background-color: #F26D00;
+	margin-top: 30px;
+}
+.pay-suc-wap a:hover {
+	background-color: #F58B35;
+}
+.pay-suc-wap a + a {
+	margin-left: 10px;
+}
+.step-mian {
+	padding: 0 30px;
+  background-color: #fff;
+}

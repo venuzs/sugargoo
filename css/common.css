@@ -1260,3 +1260,126 @@ strong{font-weight: normal;}
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
+
+
+.page-title {
+	font-size: 24px;
+	line-height: 33px;
+	text-align: center;
+	color: #333;
+	padding: 33px 0;
+	text-transform: uppercase;
+}
+.page-title-a {
+	display: block;
+	position: relative;
+}
+.page-title-a span {
+	position: absolute;
+	top: -66px;
+	right: 0;
+	font-size: 14px;
+	line-height: 33px;
+	color: #999;
+	padding-right: 20px;
+	transition: transform 0.2s;
+	background: url(../imgs/top-r.png) 92% center no-repeat;
+}
+.page-title-a span:hover {
+	color: #F26D00;
+  transform: translateX(3px);
+}
+.step-mian-cout {
+	padding: 34px 0 30px;
+	margin-left: -30px;
+	margin-right: -30px;
+}
+.step-mian-item {
+	float: left;
+	position: relative;
+	width: 30%;
+	margin-left: 3.3%;
+}
+.step-mian-item::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 1px;
+	background-color: #DCDCDC;
+}
+.step-mian-item:last-of-type::after {
+	display: none;
+}
+.step-item-input {
+	width: 310px;
+	height: 38px;
+	border: 1px solid #d9d9d9;
+	margin-bottom: 25px;
+	position: relative;
+}
+.step-item-input a {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 24px;
+	color: #fff;
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	background: #F26D00;
+}
+.step-item-input a.icon-fastest {
+	background: #F26D00 url(../imgs/icon-fastest.png) center no-repeat;
+}
+.step-item-input a.icon-strong {
+	background: #F26D00 url(../imgs/icon-strong.png) center no-repeat;
+}
+.step-item-input div {
+	padding-left: 50px;
+	line-height: 38px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	background-image: linear-gradient(
+    270deg,
+    rgba(178, 178, 178, 0.1) 0%,
+    rgba(95, 95, 95, 1) 100%
+  );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.step-item-info ul {
+	overflow: hidden;
+	zoom: 1;
+	margin-bottom: 25px;
+}
+.step-item-info ul li {
+	float: left;
+	width: 150px;
+	margin-right: 10px;
+}
+.step-item-info ul li p {
+	font-size: 12px;
+	line-height: 17px;
+	color: #999;
+	margin-bottom: 2px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.step-item-info ul li h6 {
+	font-size: 16px;
+	height: 22px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #333;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.step-item-info ul li h6.hover-color {
+	color: #F26D00;
+}

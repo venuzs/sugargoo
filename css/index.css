@@ -608,72 +608,7 @@
 	background-image: url(../imgs/big-r.png);
 }
 
-.attentive-warps {
-	position: relative;
-	padding: 50px 0 35px;
-	background-color: #fff;
-}
-.attentive-warps .attentive-warps-tip {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 133px;
-	height: 28px;
-	font-size: 12px;
-	line-height: 28px;
-	overflow: hidden;
-	text-align: center;
-	color: #fff;
-	background: #F26D00;
-	border-radius: 0px 0px 10px 0px;
-}
-.attentive-warps ol {
-	overflow: hidden;
-	zoom: 1;
-}
-.attentive-warps ol li {
-	float: left;
-	width: 16.6%;
-	text-align: center;
-	position: relative;
-}
-.attentive-warps ol li::after {
-	content: '';
-	position: absolute;
-	top: 0px;
-	right: 0;
-	width: 1px;
-	height: 110px;
-	background-color: #DCDCDC;
-}
-.attentive-warps ol li:last-of-type::after {
-	display: none;
-}
-.attentive-warps ol li .m-pic {
-	width: 90px;
-	height: 90px;
-	text-align: center;
-	margin: 10px auto 14px;
-	transition: transform 0.3s;
-}
-.attentive-warps ol li .m-pic:hover {
-	transform: translateY(-4px);
-}
-.attentive-warps ol li .m-pic img {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-.attentive-warps ol li p {
-	font-size: 13px;
-	line-height: 18px;
-	text-align: center;
-	height: 18px;
-	overflow: hidden;
-}
-.attentive-warps + .attentive-warps {
-	border-top: 1px solid #DCDCDC;
-}
+
 .choose-row {
 	margin-left: 0;
 	margin-right: 0;

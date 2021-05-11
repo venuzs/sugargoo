@@ -1450,3 +1450,131 @@ strong{font-weight: normal;}
 .attentive-warps + .attentive-warps {
 	border-top: 1px solid #DCDCDC;
 }
+
+/*购买步骤*/
+.step-top {
+	width: 100%;
+	height: 120px;
+	overflow: hidden;
+  background: url(../imgs/step-bg.png) 100% no-repeat;
+}
+.step-top-item {
+	position: relative;
+	float: left;
+	width: 33%;
+	padding: 16px 0 22px;
+	overflow: hidden;
+	zoom: 1;
+}
+.step-top-item::after {
+	content: '';
+	position: absolute;
+	top: 30px;
+	bottom: 30px;
+	right: 0;
+	width: 1px;
+	background-color: #DCDCDC;
+}
+.step-top-item:last-of-type::after {
+	display: none;
+}
+.step-top-item-l {
+	float: left;
+	font-size: 70px;
+	line-height: 82px;
+	color: #FFFAF5;
+	margin: 0 17px 0 35px;
+}
+.step-top-item-r {
+	float: left;
+	width: 285px;
+	padding: 8px 0 5px;
+}
+.step-top-item-r h5 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #FFFFFF;
+	line-height: 28px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.step-top-item-r p {
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 20px;
+}
+
+/*3栏商品布局*/
+.pro-col-3 {
+	margin-left: -30px;
+	overflow: hidden;
+	zoom: 1;
+}
+.pro-col-item {
+	float: left;
+	width: 380px;
+	padding-bottom: 28px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	background-color: #fff;
+	position: relative;
+}
+.pro-col-item a {
+	display: block;
+}
+.pro-col-item .m-pic {
+	width: 100%;
+	height: 380px;
+	overflow: hidden;
+}
+.pro-col-item .m-pic img {
+	width: 100%;
+	transition: transform 0.3s;
+}
+.pro-col-item .m-pic:hover img {
+	transform: scale(1.04);
+}
+.pro-col-item p {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: normal;
+	height: 60px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	margin: 18px 20px 13px;
+	text-overflow: ellipsis;
+}
+.pro-col-item p:hover {
+	color: #F26D00;
+}
+.pro-col-item span {
+	padding-left: 30px;
+	font-size: 20px;
+	line-height: 28px;
+	color: #F26D00;
+	font-weight: bold;
+}
+.pro-col-item font {
+	position: absolute;
+	bottom: 30px;
+	right: 20px;
+	font-size: 12px;
+	color: #999;
+}
+.pro-col-item label {
+	position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 80px;
+  height: 30px;
+  overflow: hidden;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  background: url(../imgs/free-down.png) no-repeat;
+}

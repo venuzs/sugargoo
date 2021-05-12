@@ -866,25 +866,8 @@
 	font-size: 14px;
 	line-height: 20px;
 }
-.pay-suc-wap .m-pic {
-	width: 60px;
-	height: 60px;
+.pay-suc-wap .submit-success {
 	margin: 0 auto 26px;
-	border-radius: 50%;
-	background-color: #F26D00;
-	position: relative;
-}
-.pay-suc-wap .m-pic::after{
-	content: '';
-	position: absolute;
-	top: 17px;
-	left: 18px;
-	width: 26px;
-	height: 13px;
-	border: 2px solid #fff;
-	border-top: none;
-	border-right: none;
-	transform: rotate(-45deg);
 }
 .pay-suc-wap h5 {
 	font-size: 24px;
@@ -1002,15 +985,7 @@
 	font-size: 0;
 	vertical-align: middle;
 }
-.fill-input,
-.fill-select {
-	padding: 4px 9px;
-	border: 1px solid #DCDCDC;
-	font-size: 14px;
-	line-height: 20px;
-	color: #333;
-	margin-right: 10px;
-}
+
 .fill-input-1 {
 	width: 380px;
 }

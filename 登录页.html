@@ -2,26 +2,13 @@
 <html>
 	<head>
 	    <meta charset="UTF-8" />
-	    <title>订单结算页</title>
+	    <title>登录页</title>
 	    <link rel="stylesheet" type="text/css" href="./css/common.css" />
-	    <link rel="stylesheet" type="text/css" href="./css/cart.css" />
+	    <link rel="stylesheet" type="text/css" href="./css/login.css" />
 	    
 	  </head>
 	<body>
 		<div class="page">
-		  <!--顶部广告 start-->
-	      <div class="jp-content">
-	        <div class="layer1">
-	          <img src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng650df88d9021516ea7367705d9dbf8eb86b59f1706044029d9a56acfcbd57d9f"/>
-	          <div class="section1">
-	            <span class="word1">
-	              MAKE IT EASY FOR GLOBAL “FROM CHINA TO GLOBAL”
-	            </span>
-	            <span class="info1">VIP member shipping 80%</span>
-	          </div>
-	        </div>
-         </div>
-         <!--顶部广告 end-->
          <!--头部信息栏 start-->
         <div class="layer2">
         	<div class="jp-content">
@@ -128,146 +115,54 @@
         </div>
         <!--搜索栏 end-->
         
-        <!--下单进度-->
-        <div class="g-container">
-        	<div class="jp-content">
-        		<div class="cart-process">
-        			<div class="cart-process-line"></div>
-        			<div class="cart-process-item cart-process-item1 current">
-        				<div class="cart-process-dots">1</div>
-        				<p>Cart</p>
+        <div class="g-container" style="background: url(imgs/login-bg.png) center 0 no-repeat;">
+        	<div class="jp-content clearfix">
+        		<div class="login-box">
+        			<div class="login-tabs">
+        				<a class="active" href="javascript:;">SIGN IN</a>
+        				<a href="javascript:;">REGISTER</a>
         			</div>
-        			<div class="cart-process-item cart-process-item2 current">
-        				<div class="cart-process-dots">2</div>
-        				<p>Check order & service</p>
+        			
+        			<!--登录-->
+        			<div class="login-content-item">
+        				<div class="from-item">
+        					<input class="fill-input" type="text" placeholder="Email/Username" />
+        				</div>
+        				<div class="from-item">
+        					<input class="fill-input" type="password" placeholder="Password" />
+        				</div>
+        				<div class="form-item clearfix">
+        					<p><i></i>Keep me signed in</p>
+        					<a class="fr" href="javasciprt:;">Forgot your password?</a>
+        				</div>
+        				<button class="login-butn">Sign In</button>
         			</div>
-        			<div class="cart-process-item cart-process-item3 current">
-        				<div class="cart-process-dots">3</div>
-        				<p>Payment</p>
+        			
+        			<!--注册-->
+        			<div class="login-content-item login-regist-item" style="display: none;">
+        				<div class="from-item">
+        					<input class="fill-input" type="text" placeholder="Email" />
+        				</div>
+        				<div class="from-item">
+        					<input class="fill-input" type="password" placeholder="Create password" />
+        					<span class="error-txt">Please enter a password with more than six digits, including both numbers and letters</span>
+        				</div>
+        				<div class="from-item">
+        					<input class="fill-input" type="password" placeholder="Repeat password" />
+        				</div>
+        				<div class="from-item from-item-code">
+        					<input class="fill-input" type="text" placeholder="Enter the code" />
+        					<a class="yzm-btn" href="javascript:;">Send the code</a>
+        				</div>
+        				<div class="form-item clearfix">
+        					<p class="color_333"><i></i>I have read and agree to the <a class="base-color" href="javascript:;"> "User Service Agreement"</a></p>
+        				</div>
+        				<button class="login-butn login-regist-butn">Register</button>
         			</div>
         		</div>
         	</div>
         </div>
         
-        <!--订单信息-->
-        <div class="jp-content">
-        	<div class="pay-order-detail">
-        		<h2>Orders submitted successfully!</h2>
-        		<p><i></i>Please pay within <span class="base-color">88 hours</span> and <span class="base-color">59 minutes</span>, the order will be cancelled automatically if it expires</p>
-        		<div class="Order-more">Order details <i class="y_more"></i></div>
-        		<div class="y_sucorderinfo">
-							<p>商品名称： 多功能升降杆手提花洒套装【含龙头】 HSTC，彩虹5号电池（10粒装） 彩色</p>
-						</div>
-        	</div>
-        </div>
-        
-        <!--支付金额-->
-        <div class="jp-content">
-        	<div class="total-payable clearfix">
-        		<div class="total-pay-item1">Total payable: $88.71</div>
-        		<div class="total-pay-item2">pay processing fees：<span class="base-color">$3.40</span>（=Actual amount payable*0.035+0.3）</div>
-        		<div class="total-pay-item3">Total: <font>$482.98</font></div>
-        	</div>
-        </div>
-        
-        <!--支付方式-->
-        <div class="jp-content">
-        	<div class="payment-list">
-        		<ul>
-        			<li class="current">
-        				<div class="payment-li">
-        					<i class="pay-select"></i>
-        					<div class="m-pic">
-        						<img src="imgs/pay-paypal.png" alt="" />
-        					</div>
-        					<div class="payment-infos">
-        						<div class="payment-info-title">
-        							<div class="payment-tit1">billing address：</div>
-        							<div class="payment-info-cont">
-        								<h6 class="base-color">Jenny   13810998888</h6>
-        								<p>United States, North Carolina, Hongda City, Resty Street, Menglishi Community, Room 2032, Building 11</p>
-        							</div>
-        							<a href="javascript:;">Add consignee address</a>
-        						</div>
-        						<div class="payment-info-note">
-        							<h5>note</h5>
-											<p>1. The goods you buy through the Paypal channel can only be sent to the Paypal billing address when you pick up the bag. Please make sure that the billing address is the final shipping address of the goods</p>
-        							<p>2. When submitting a package, if you submit multiple goods with different billing addresses for combined delivery, the package must be manually reviewed and can be sent. Manual review will extend the time limit for parcel delivery.</p>
-        						</div>
-        					</div>
-        				</div>
-        			</li>
-        			<li>
-        				<div class="payment-li">
-        					<i class="pay-select"></i>
-        					<div class="m-pic">
-        						<img src="imgs/pay-alipay.png" alt="" />
-        					</div>
-        					<label>Pay with AliPay</label>
-        				</div>
-        			</li>
-        			<li>
-        				<div class="payment-li">
-        					<i class="pay-select"></i>
-        					<div class="m-pic">
-        						<img src="imgs/pay-wechat.png" alt="" />
-        					</div>
-        					<label>WeChat Pay</label>
-        				</div>
-        			</li>
-        			<li>
-        				<div class="payment-li">
-        					<i class="pay-select"></i>
-        					<div class="m-pic">
-        						<img src="imgs/pay-balance.png" alt="" />
-        					</div>
-        					<label>Balance payment</label>
-        					<div class="payment-infos">
-        						<div class="clearfix">
-        							<p class="payment-recnow-fl">¥ 1934.00</p>
-        							<a class="payment-recnow" href="javascript:;">Recharge now</a>
-        						</div>
-        					</div>
-        				</div>
-        			</li>
-        		</ul>
-        	</div>
-        </div>
-        
-        <!--支付按钮-->
-        <div class="jp-content">
-        	<a class="pay-btn" href="javascript:;">Payment</a>
-        </div>
-        
-        <!--支付转换-->
-        <div class="jp-content">
-        	<div class="pay-bank-transfer">
-        		<h4>Bank transfer remittance</h4>
-        		<ol>
-        			<li class="active">
-        				<a href="javascript:;">
-        					<img src="imgs/pay-transfer.png" alt="" />
-        				</a>
-        				<p>Overseas wire transfer</p>
-        			</li>
-        			<li>
-        				<a href="javascript:;">
-        					<img src="imgs/pay-bank.png" alt="" />
-        				</a>
-        				<p>Bank payment</p>
-        			</li>
-        		</ol>
-        	</div>
-        </div>
-        
-        
-		
-			<div class="g-container g-baseCont mt_60">
-				<div class="jp-content">
-					<h6>Professional purchasing platform</h6>
-					<p>Enjoy the most intimate purchasing service and transshipment service, manage your merchandise orders throughout the process</p>
-				</div>
-			</div>
 			
 			<!--底部导航-->
 			<div class="g-container" >
@@ -359,15 +254,11 @@
 	<script src="js/global.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 		$(function(){
-			// 展开订单详情
-			$(".Order-more .y_more").click(function(){
-				$(".y_sucorderinfo").slideToggle();
-				$(this).toggleClass("active");
-			});
-	
 			// 支付方式切换
-			$(".payment-list li").click(function(){
-				$(this).addClass("current").siblings('li').removeClass("current");
+			$(".login-tabs a").click(function(){
+				$(this).addClass("active").siblings('a').removeClass("active");
+				var index = $(this).index();
+				$('.login-content-item').hide().eq(index).show();
 			});
 		})
 	</script>

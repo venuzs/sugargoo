@@ -1578,3 +1578,33 @@ strong{font-weight: normal;}
   color: #fff;
   background: url(../imgs/free-down.png) no-repeat;
 }
+
+.fill-input,
+.fill-select {
+	padding: 4px 9px;
+	border: 1px solid #DCDCDC;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	margin-right: 10px;
+}
+
+.submit-success {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #F26D00;
+	position: relative;
+}
+.submit-success::after{
+	content: '';
+	position: absolute;
+	top: 17px;
+	left: 18px;
+	width: 26px;
+	height: 13px;
+	border: 2px solid #fff;
+	border-top: none;
+	border-right: none;
+	transform: rotate(-45deg);
+}

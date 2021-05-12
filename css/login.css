@@ -1,0 +1,156 @@
+
+.login-content-item .fill-input{
+	margin-right: 0;
+}
+.login-box {
+	float: right;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	width: 360px;
+	padding: 0 40px;
+	height: 480px;
+	background-color: #fff;
+}
+.login-tabs {
+	padding: 32px 0 20px;
+	border-bottom: 1px solid #DCDCDC;
+	text-align: center;
+	font-size: 0;
+	margin-bottom: 40px;
+}
+.login-tabs a {
+	display: inline-block;
+	width: 50%;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	position: relative;
+	font-weight: bold;
+}
+.login-tabs a:hover {
+	color: #F26D00;
+}
+.login-tabs a.active {
+	color: #F26D00;
+}
+.login-tabs a.active::after {
+	content: '';
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	right: 0;
+	height: 4px;
+	background-color: #F26D00;
+}
+.from-item {
+	margin-bottom: 20px;
+	
+}
+.from-item .fill-input{
+	width: 340px;
+	padding: 9px;
+}
+.from-item .fill-input:focus {
+	border-color: #F26D00;
+}
+
+.form-item > p {
+	float: left;
+	font-size: 14px;
+	line-height: 22px;
+	color: #F26D00;
+	cursor: pointer;
+}
+.form-item > p.color_333 {
+	font-size: 12px;
+	color: #333;
+}
+.form-item > p.color_333 a {
+	color: #F26D00;
+}
+.form-item > p > i {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	vertical-align: middle;
+	margin-right: 6px;
+	background: url(../imgs/list-off.png) no-repeat;
+}
+.form-item > p > i.current {
+	background-image: url(../imgs/list-on.png);
+}
+.form-item > a.fr{
+	font-size: 14px;
+	line-height: 22px;
+}
+a:hover {
+	color: #F26D00;
+}
+.login-butn {
+	margin-top: 40px;
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	color: #fff;
+	border: none;
+	background-color: #F26D00;
+	outline: none;
+}
+.login-regist-butn {
+	margin-top: 20px;
+}
+.from-item-code {
+	position: relative;
+}
+.from-item-code .yzm-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 118px;
+	height: 38px;
+	border: 1px solid #F26D00;
+	text-align: center;
+	line-height: 38px;
+	background-color: #FFFAC3;
+	color: #F26D00;
+	font-size: 14px;
+}
+.login-regist-item {
+	margin-top: -20px;
+}
+.error-txt {
+	display: block;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 6px 0;
+	color: #F26D00;
+	margin-bottom: -20px;
+}
+
+
+.submit-success {
+	margin: 113px auto 25px;
+}
+.regist-tip1 {
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.regist-p1 {
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 4px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.login-find-box .regist-tip1 {
+	margin-top: 33px;
+}
+.login-find-box .regist-p1 {
+	padding-bottom: 30px;
+}
+.login-find-box .login-butn {
+	margin-top: 10px;
+}

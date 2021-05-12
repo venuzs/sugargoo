@@ -154,3 +154,223 @@ a:hover {
 .login-find-box .login-butn {
 	margin-top: 10px;
 }
+
+/*帮助中心*/
+.help-center {
+	margin-bottom: 30px;
+	overflow: auto;
+}
+.help-center input.fl {
+	width: 1032px;
+	padding: 16px 24px;
+	line-height: 28px;
+	font-size: 20px;
+	background-color: #fff;
+	border: none;
+}
+.help-center a {
+	width: 120px;
+	height: 60px;
+	line-height: 60px;
+	background-color: #F26D00;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.help-center a:hover {
+	color: #F58B35;
+}
+.fade {
+	opacity: 0;
+	-webkit-transition: opacity .15s linear;
+	-o-transition: opacity .15s linear;
+	transition: opacity .15s linear
+}
+
+.fade.in {
+	opacity: 1
+}
+
+.collapse {
+	display: none
+}
+.collapse.in {
+	display: block
+}
+.collapsing {
+	position: relative;
+	height: 0;
+	overflow: hidden;
+	-webkit-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	transition-timing-function: ease;
+	-webkit-transition-duration: .35s;
+	-o-transition-duration: .35s;
+	transition-duration: .35s;
+	-webkit-transition-property: height, visibility;
+	-o-transition-property: height, visibility;
+	transition-property: height, visibility
+}
+
+.help-center-couts > .fl {
+	width: 300px;
+}
+.help-center-couts > .fr {
+	width: 885px;
+}
+.help-center-couts .m-pic {
+	display: block;
+	width: 300px;
+	height: 80px;
+}
+.help-center-couts .m-pic + .m-pic {
+	margin-top: 10px;
+}
+.help-center-couts .panel-group {
+	padding: 0 18px;
+}
+.help-center-couts .panel-collapse {
+	border-bottom: 1px solid #DCDCDC;
+}
+.help-center-couts .panel-heading a {
+	display: block;
+	height: 48px;
+	line-height: 48px;
+	border-bottom: 1px solid #DCDCDC;
+	font-size: 14px;
+	font-weight: bold;
+	padding-right: 20px;
+	padding-left: 4px;
+	background: url(../imgs/slider-t.png) 99% center no-repeat;
+}
+.help-center-couts .panel-heading a.collapsed {
+	background-image: url(../imgs/top-r.png);
+}
+.help-center-couts .list-group-item {
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	padding-left: 6px;
+	cursor: pointer;
+}
+.help-center-couts .list-group-item.current {
+	font-weight: bold;
+	background-color: #f5f5f5;
+	background-color: rgba(220, 220, 220, 0.3);
+	color: #F26D00;
+}
+.help-center-couts .list-group-item:hover {
+	color: #F26D00;
+}
+
+.self-service {
+	padding: 40px 50px 60px;
+	background-color: #fff;
+}
+.self-service h4 {
+	font-size: 16px;
+	line-height: 22px;
+	color:#F26D00;
+	font-weight: bold;
+	margin-bottom: 28px;
+	text-transform: uppercase;
+}
+.self-service-items {
+	margin-left: -30px;
+	margin-bottom: 35px;
+	overflow: hidden;
+	zoom: 1;
+	font-size: 14px;
+	line-height: 28px;
+}
+.self-service-items li {
+	float: left;
+	width: 238px;
+	padding-bottom: 20px;
+	border: 1px solid #DCDCDC;
+	text-align: center;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+.self-service-items li i {
+	display: block;
+	width: 74px;
+	height: 74px;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 39px auto 32px;
+}
+.self-service-items li h6 {
+	font-size: 14px;
+	line-height: 20px;
+	height: 20px;
+	margin: 0 15px 6px;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-weight: bold;
+}
+.self-service-items li p {
+	font-size: 14px;
+	line-height: 24px;
+	height: 48px;
+	overflow: hidden;
+	margin: 0 30px;
+	text-align: center;
+}
+.self-service-items li:hover,
+.self-service-items li.active {
+	border-color: #F26D00;
+}
+.self-service-items li.active h6 {
+	color: #F26D00;
+}
+.help-icon-1 {
+	background-image: url(../imgs/help-1.png);
+}
+.help-icon-2 {
+	background-image: url(../imgs/help-2.png);
+}
+.help-icon-3 {
+	background-image: url(../imgs/help-3.png);
+}
+.help-icon-4 {
+	background-image: url(../imgs/help-4.png);
+}
+.help-icon-5 {
+	background-image: url(../imgs/help-5.png);
+}
+.help-icon-6 {
+	background-image: url(../imgs/help-6.png);
+}
+.self-service-items li.active .help-icon-6 {
+	background-image: url(../imgs/help-6-active.png);
+}
+.self-service-lis li {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+.self-service .self-service-item-cont {
+	margin-left: 0;
+}
+.self-service-item-cont li {
+	font-size: 14px;
+	line-height: 28px;
+	margin-bottom: 8px;
+}
+
+.self-service-items h6 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 25px;
+	line-height: 28px;
+}
+.self-service-items > p {
+	margin-bottom: 25px;
+}
+.self-service-items > p.s-s-tit {
+	color: #F26D00;
+}

@@ -894,8 +894,7 @@
 	margin-left: 10px;
 }
 .step-mian {
-	padding: 0 30px;
-  background-color: #fff;
+	margin-bottom: 0;
 }
 
 /*转运*/
@@ -1010,27 +1009,7 @@
 .y_saleleng a.disabled {
 	color: #999 !important;
 }
-select::-ms-expand{ display: none; }
- 
-select{
-   appearance:none; 
-  -moz-appearance:none; 
-  -webkit-appearance:none;
-}
-.fill-select-wap {
-	display: inline-block;
-	position: relative;
-}
-.fill-select-wap i {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 10px;
-	width: 28px;
-	border: 1px solid #DCDCDC;
-	background: #fff url(../imgs/slider-t.png) center no-repeat;
-	z-index: 2;
-}
+
 
 .product-fill-item {
 	font-size: 0;

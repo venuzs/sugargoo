@@ -374,3 +374,333 @@ a:hover {
 .self-service-items > p.s-s-tit {
 	color: #F26D00;
 }
+
+/*运费估算*/
+.yf-mailing {
+	padding: 30px;
+	margin-top: -100px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	position: relative;
+}
+.yf-mailing-content {
+	padding: 20px 20px 30px;
+	border: 1px solid #DCDCDC;
+}
+.yf-mailing-content h4 {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+	padding: 2px 0 16px;
+	color: #F26D00;
+}
+.yf-mailing-content .yf-mailing-item {
+	margin-bottom: 20px;
+	margin-right: -20px;
+	font-size: 0;
+}
+.yf-mailing-content .yf-mailing-item .fill-select-wap .fill-select{
+	width: 360px;
+}
+.yf-mailing-content .yf-mailing-item .fill-input {
+	width: 217px;
+}
+.yf-mailing-content .yf-mailing-item .fill-input:first-of-type {
+	width: 340px;
+}
+.yf-mailing-estimate {
+	padding-top: 10px;
+}
+.yf-mailing-estimate .fl {
+	font-size: 12px;
+	line-height: 20px;
+	color: #999;
+}
+.yf-mailing-estimate .fl p a {
+	color: #F26D00;
+}
+.yf-mailing-estimate .fr button {
+	border: none;
+	outline: none;
+	width: 236px;
+	height: 50px;
+	background-color: #F26D00;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.yf-delive-warps {
+	padding: 30px;
+	background-color: #fff;
+}
+.yf-delive-cont {
+	padding: 0 20px;
+	border: 1px solid #DCDCDC;
+}
+.yf-delive-thead {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	padding: 20px 0;
+	overflow: hidden;
+	zoom: 1;
+}
+.yf-delive-th,
+.yf-delive-td {
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	line-height: 22px;
+}
+.yf-delive-1 {
+	width: 365px;
+	text-align: left;
+}
+.yf-delive-2 {
+	width: 147px;
+}
+.yf-delive-3 {
+	width: 298px;
+}
+.yf-delive-4 {
+	width: 287px;
+	text-align: left;
+}
+.yf-delive-tr {
+	padding: 15px 0;
+	border-top: 1px solid #DCDCDC;
+	position: relative;
+  z-index: 3;
+}
+.yf-delive-tr .m-pic {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.yf-delive-tr .yf-td-name {
+	margin-top: 26px;
+}
+.yf-delive-tr .yf-td-name.fl {
+	margin-left: 12px;
+}
+.yf-delive-tr h5 {
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	margin-top: 20px;
+	color: #F26D00;
+	font-weight: bold;
+}
+.yf-delive-tr .yf-td-notice {
+	font-size: 12px;
+	line-height: 17px;
+	color: #F26D00;
+}
+.yf-delive-tr .yf-td-notice span {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #999;
+	text-align: center;
+	line-height: 14px;
+	font-size: 12px;
+	color: #333;
+	border-radius: 50%;
+	text-decoration: none;
+	list-style: none;
+	font-weight: normal;
+	cursor: pointer;
+}
+.yf-delive-tr .yf-td-time {
+	margin-top: 4px;
+	font-size: 12px;
+	color: #F26D00;
+}
+.yf-delive-tr .yf-td-time .icon-delay {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url(../imgs/slight.png) no-repeat;
+	position: relative;
+	top: 3px;
+}
+.yf-delive-tr .yf-td-features {
+	margin-top: 19px;
+	height: 44px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.freight-title {
+	font-size: 14px;
+	line-height: 20px;
+	height: 20px;
+	font-weight: bold;
+	padding: 0px 10px 0px 13px;
+	border-left: 6px solid #F26D00;
+	margin: 16px 0 12px;
+	
+}
+.yf-delive-tfooter {
+	width: 100%;
+	border-top: 1px solid #DCDCDC;
+}
+.freight-item table {
+	width: 100%;
+}
+.freight-item th {
+	height: 30px;
+	line-height: 30px;
+	background-color: #F5F5F5;
+	padding: 0 10px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 14px;
+}
+.freight-item th:first-of-type,
+.freight-item td:first-of-type {
+	text-align: left;
+	font-weight: bold;
+	color: #333;
+}
+.freight-item td {
+	padding: 0 10px;
+	font-size: 14px;
+	line-height: 28px;
+	text-align: center;
+	color: #F26D00;
+}
+.freight-item tr:last-of-type td {
+	color: #F26D00;
+	font-weight: bold;
+	text-align: left;
+}
+.yf-delive-tfooter {
+	position: relative;
+	padding-bottom: 20px;
+}
+.yf-delive-tfooter::after {
+	content: '';
+	position: absolute;
+	top: -110px;
+	right: -20px;
+	bottom: 0px;
+	left: -20px;
+	border: 3px solid #F26D00;
+}
+.freight-item p {
+	font-size: 12px;
+	line-height: 17px;
+}
+
+.freight-item-wap {
+	/*-moz-column-count:2;*/
+	/* Firefox */
+  /*-webkit-column-count:2;*/
+	/* Safari 和 Chrome */
+        /*column-count:2;*/
+       overflow: hidden;
+}
+.freight-item-wap .freight-item {
+	float: left;
+	width: 50%;
+}
+.yf-common-problem {
+	background-color: #fff;
+	margin: 20px 0;
+	padding: 0 30px 60px;
+}
+.yf-common-problem h6,
+.yf-latest-news .yf-latest-item1 h6 {
+	font-size: 16px;
+	line-height: 22px;
+	color: #F26D00;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 22px 0 15px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #DCDCDC;
+}
+.yf-common-problem .panel {
+	border-bottom: 1px solid #DCDCDC;
+}
+.yf-common-problem .panel-heading a{
+	padding: 15px 0;
+	display: block;
+	font-size: 14px;
+	line-height: 28px;
+	color: #F26D00;
+	font-weight: bold;
+}
+.yf-common-problem .panel-body {
+	padding-bottom: 20px;
+}
+.yf-common-problem .panel-body p {
+	font-size: 14px;
+	line-height: 28px;
+}
+.yf-latest-news {
+	padding: 0 30px 35px;
+	background-color: #fff;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.yf-latest-news .yf-latest-item1 {
+	float: left;
+	width: 383px;
+}
+.yf-latest-news .yf-latest-item1 ol {
+	margin-top: -10px;
+}
+.yf-latest-news .yf-latest-item1 li {
+	padding: 10px 0;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	border-bottom: 1px solid #DCDCDC;
+}
+.yf-latest-item2 {
+	float: right;
+	width: 340px;
+	height: 250px;
+	margin-left: 20px;
+	margin-top: 35px;
+	background-color: #F5F5F5;
+	border: 1px solid #DADADA;
+}
+
+.yf-delive-warning {
+	padding: 28px 35px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #F26D00;
+	background-color: #fff;
+}
+.yf-delive-warning h6 {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+	margin-bottom: 12px;
+	color: #F26D00;
+}
+.yf-delive-warning h6 span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: #F26D00;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	line-height: 20px;
+	font-weight: normal;
+	margin-right: 8px;
+}
+.step-mian {
+	margin-bottom: 20px;
+}

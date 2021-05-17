@@ -4,3 +4,4 @@ git@github.com:venuzs/sugargoo.git
 1.底部导航Social 6个图标
 2.商品列表缺少另一种展示形式
 3.商品详情页 评论模块
+4.帮助中心选中图标

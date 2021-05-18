@@ -29,4 +29,22 @@ $(function () {
 		   slideSpeed: 500
 	  });
 	};
+	
+	// 模态框
+	jQuery.extend({
+		elShow: function (ele) {
+		  $('body').addClass('el-popup-parent--hidden');
+		  $(ele).css({'display':'block','z-index':'2082'}).find('.el-message-box').addClass('msgbox-fade-enter-active')
+		},
+		elHide: function (ele) {
+			$('body').removeClass('el-popup-parent--hidden');
+			$(ele).removeClass('msgbox-fade-enter-active').find('.el-message-box').addClass('msgbox-fade-leave-active');
+			setTimeout(function () {
+				$(ele).css({'display':'none','z-index':'2067'}).find('.el-message-box').removeClass('msgbox-fade-leave-active')
+			},300)
+		}
+	})
+	$(document).on('click','.v-modal,.el-message-box__headerbtn',function (e) {
+		$.elHide('.el-message-box__wrapper')
+	})
 })

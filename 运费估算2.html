@@ -20,9 +20,9 @@
 	            <span class="info1">VIP member shipping 80%</span>
 	          </div>
 	        </div>
-         </div>
-         <!--顶部广告 end-->
-         <!--头部信息栏 start-->
+        </div>
+        <!--顶部广告 end-->
+        <!--头部信息栏 start-->
         <div class="layer2">
         	<div class="jp-content">
         		<div class="clearfix">
@@ -32,10 +32,11 @@
 		        				<span class="clrf26">Cuttency Management</span>
 		        				<i class="icon-down"></i>
 		        			</div>
-		        			<div class="layer2-drop">
+		        			<div class="layer2-drop layer2-drop-cutcy">
 		        				<ul>
-		        					<li>Management</li>
-		        					<li>Cuttency</li>
+		        					<li>EUR 欧元（Exchange rate:0.135) USD </li>
+		        					<li class="active">美元（Exchange rate:0.162) <i class="icon-rigth submit-success"></i></li>
+		        					<li>CNY 人民币（Exchange rate:1.000)</li>
 		        				</ul>
 		        			</div>
 		        		</div>
@@ -46,9 +47,8 @@
 		        			</div>
 		        			<div class="layer2-drop">
 		        				<ul>
+		        					<li>English</li>
 		        					<li>简体中文</li>
-		        					<li>русский</li>
-		        					<li>한국어.</li>
 		        				</ul>
 		        			</div>
 		        		</div>
@@ -90,9 +90,8 @@
 		        			</div>
 		        			<div class="layer2-drop">
 		        				<ul>
-		        					<li>简体中文</li>
-		        					<li>русский</li>
-		        					<li>한국어.</li>
+		        					<li>Size comparison</li>
+		        					<li>Freight calculation</li>
 		        				</ul>
 		        			</div>
 		        		</div>
@@ -102,9 +101,20 @@
 		        				<span>Download App</span>
 		        				<i class="icon-down"></i>
 		        			</div>
-		        			<div class="layer2-drop">
-		        				<div class="m-pic">
-		        					<img src="imgs/ewm.png" alt="" />
+		        			<div class="layer2-drop layer2-drop-app">
+		        				<p>Scan the QR code or download the application directly from the APP store</p>
+		        				<div class="m-pics">
+		        					<div class="m-pic-l fl">
+		        						<img src="imgs/ewm.png" alt="" />
+		        					</div>
+		        					<div class="m-pic-r fl">
+		        						<a href="javascript:;">
+													<img src="imgs/btm-app.png" alt="" />
+												</a>
+												<a href="javascript:;">
+													<img src="imgs/btm-google.png" alt="" />
+												</a>
+		        					</div>
 		        				</div>
 		        			</div>
 		        		</div>
@@ -128,20 +138,63 @@
         			<div class="top-search-tip">Custom purchasing</div>
         		</div>
         		<div class="fr clearfix">
-        			<a href="javascript:;" class="lay-top-enter">
+        			<div class="lay-top-enter">
         				<i class="icon-login"></i>
         				<span>Sign In</span>
-        			</a>
-        			<a href="javascript:;" class="lay-top-enter">
+        				
+        				<div class="lay-top-cont">
+        					<p class="lay-top-tit">Welcome to Sugargoo</p>
+        					<a class="lay-top-btn" href="javascript:;">Sign In</a>
+        					<p class="lay-top-tit">Register on Sugargoo: Earn 10 points</p>
+        					<a class="lay-top-btn" href="javascript:;">Registered</a>
+        				</div>
+        			</div>
+        			<div class="lay-top-enter lay-top-enter_cart">
         				<i class="icon-cart"></i>
         				<span>Cart</span>
         				<label>2</label>
-        			</a>
-        			<a href="javascript:;" class="lay-top-enter">
+        				
+        				<div class="lay-top-cont">
+        					<ul class="lay-cart-drop">
+        						<li>
+        							<div class="m-pic">
+        								<img src="imgs/demo/pro-s7.png" alt="" />
+        							</div>
+        							<div class="lay-cart-drop-cont">
+        								<p>Xiaomi Redmi Note 9 Pro 4G Smartphone Snapdragon 720G Octa </p>
+        								<div class="clearfix">
+        									<span>Colour: Black </span> <span>x1</span>
+        									<b>$482.98</b>
+        								</div>
+        								<i class="icon-cart-close"></i>
+        							</div>
+        						</li>
+        						<li>
+        							<div class="m-pic">
+        								<img src="imgs/demo/pro-s7.png" alt="" />
+        							</div>
+        							<div class="lay-cart-drop-cont">
+        								<p>Xiaomi Redmi Note 9 Pro 4G Smartphone Snapdragon 720G Octa </p>
+        								<div class="clearfix">
+        									<span>Colour: Black </span><span>x1</span>
+        									<b>$482.98</b>
+        								</div>
+        								<i class="icon-cart-close"></i>
+        							</div>
+        						</li>
+        					</ul>
+        					<div class="lay-cart-drop-total">
+        						<span>2 Item(s) </span>
+        						<b>$1062.98</b>
+        					</div>
+        					<a class="lay-top-btn" href="javascript:;">View My Cart</a>
+        				</div>
+        			</div>
+        			<!--<a href="javascript:;" class="lay-top-enter">
         				<i class="icon-message"></i>
         				<span>message</span>
         				<label>5</label>
-        			</a>
+        			</a>-->
         		</div>
         	</div>
         </div>
@@ -157,229 +210,46 @@
 									<h2>All Category<s></s></h2>
 									<div class="m-meun">
 										<div class="m-itme">
-											<h3>浴室五金</h3>
-											<div class="m-three">
-												<div class="fl">
-													<ol>
-													    <li class="active">
-													    	<a href="##"><s><img src="imgs/m-three.png"></s>浴室龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three1.png"></s>淋浴龙头</a>
-													    </li>
-													    <li >
-													    	<a href="##"><s><img src="imgs/m-three2.png"></s>面盆龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three3.png"></s>淋浴房</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three4.png"></s>浴缸</a>
-													    </li>
-													</ol>
-												</div>
-												
-											</div>
+											<h3><a href="javascript:;">Bandai and Gumpla</a></h3>
 										</div>
 										<div class="m-itme">
-											<h3>花洒系列</h3>
-											<div class="m-three">
-												<div class="fl">
-													<ol>
-													   <li class="active">
-													    	<a href="##"><s><img src="imgs/m-three.png"></s>浴室龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three1.png"></s>淋浴龙头</a>
-													    </li>
-													    <li >
-													    	<a href="##"><s><img src="imgs/m-three2.png"></s>面盆龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three3.png"></s>淋浴房</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three4.png"></s>浴缸</a>
-													    </li>
-													</ol>
-												</div>
-												
-											</div>
+											<h3><a href="javascript:;">Holiday</a></h3>
 										</div>
 										<div class="m-itme">
-											<h3>浴室柜</h3>
-											<div class="m-three">
-												<div class="fl">
-													<ol>
-													    <li class="active">
-													    	<a href="##"><s><img src="imgs/m-three.png"></s>浴室龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three1.png"></s>淋浴龙头</a>
-													    </li>
-													    <li >
-													    	<a href="##"><s><img src="imgs/m-three2.png"></s>面盆龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three3.png"></s>淋浴房</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three4.png"></s>浴缸</a>
-													    </li>
-													</ol>
-												</div>
-												
-											</div>
+											<h3><a href="javascript:;">Casual Snacks</a></h3>
 										</div>
 										<div class="m-itme">
-											<h3>厨房五金</h3>
-											<div class="m-three">
-												<div class="fl">
-													<ol>
-													    <li class="active">
-													    	<a href="##"><s><img src="imgs/m-three.png"></s>浴室龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three1.png"></s>淋浴龙头</a>
-													    </li>
-													    <li >
-													    	<a href="##"><s><img src="imgs/m-three2.png"></s>面盆龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three3.png"></s>淋浴房</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three4.png"></s>浴缸</a>
-													    </li>
-													</ol>
-												</div>
-												
-											</div>
+											<h3><a href="javascript:;">Men’s Fashiom</a></h3>
 										</div>
 										<div class="m-itme">
-											<h3>智能卫浴</h3>
-											<div class="m-three">
-												<div class="fl">
-													<ol>
-													    <li class="active">
-													    	<a href="##"><s><img src="imgs/m-three.png"></s>浴室龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three1.png"></s>淋浴龙头</a>
-													    </li>
-													    <li >
-													    	<a href="##"><s><img src="imgs/m-three2.png"></s>面盆龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three3.png"></s>淋浴房</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three4.png"></s>浴缸</a>
-													    </li>
-													</ol>
-												</div>
-												
-											</div>
+											<h3><a href="javascript:;">Women’s Fashion</a></h3>
 										</div>
 										<div class="m-itme">
-											<h3>挂件系列</h3>
-											<div class="m-three">
-												<div class="fl">
-													<ol>
-													    <li class="active">
-													    	<a href="##"><s><img src="imgs/m-three.png"></s>浴室龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three1.png"></s>淋浴龙头</a>
-													    </li>
-													    <li >
-													    	<a href="##"><s><img src="imgs/m-three2.png"></s>面盆龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three3.png"></s>淋浴房</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three4.png"></s>浴缸</a>
-													    </li>
-													</ol>
-												</div>
-												
-											</div>
+											<h3><a href="javascript:;">Shoes/Bags/Accessiries</a></h3>
 										</div>
 										<div class="m-itme">
-											<h3>小五金</h3>
-											<div class="m-three">
-												<div class="fl">
-													<ol>
-													   <li class="active">
-													    	<a href="##"><s><img src="imgs/m-three.png"></s>浴室龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three1.png"></s>淋浴龙头</a>
-													    </li>
-													    <li >
-													    	<a href="##"><s><img src="imgs/m-three2.png"></s>面盆龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three3.png"></s>淋浴房</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three4.png"></s>浴缸</a>
-													    </li>
-													</ol>
-												</div>
-												
-											</div>
+											<h3><a href="javascript:;">Electronics</a></h3>
 										</div>
 										<div class="m-itme">
-											<h3>陶瓷</h3>
-											<div class="m-three">
-												<div class="fl">
-													<ol>
-													    <li class="active">
-													    	<a href="##"><s><img src="imgs/m-three.png"></s>浴室龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three1.png"></s>淋浴龙头</a>
-													    </li>
-													    <li >
-													    	<a href="##"><s><img src="imgs/m-three2.png"></s>面盆龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three3.png"></s>淋浴房</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three4.png"></s>浴缸</a>
-													    </li>
-													</ol>
-												</div>
-												
-											</div>
+											<h3><a href="javascript:;">Mobile Phone&Accessiries</a></h3>
 										</div>
 										<div class="m-itme">
-											<h3>收纳</h3>
-											<div class="m-three">
-												<div class="fl">
-													<ol>
-													    <li class="">
-													    	<a href="##"><s><img src="imgs/m-three.png"></s>浴室龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three1.png"></s>淋浴龙头</a>
-													    </li>
-													    <li >
-													    	<a href="##"><s><img src="imgs/m-three2.png"></s>面盆龙头</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three3.png"></s>淋浴房</a>
-													    </li>
-													    <li>
-													    	<a href="##"><s><img src="imgs/m-three4.png"></s>浴缸</a>
-													    </li>
-													</ol>
-												</div>
-												
-											</div>
+											<h3><a href="javascript:;">PC&Digital</a></h3>
+										</div>
+										<div class="m-itme">
+											<h3><a href="javascript:;">Home Furniture</a></h3>
+										</div>
+										<div class="m-itme">
+											<h3><a href="javascript:;">Office/Graphic</a></h3>
+										</div>
+										<div class="m-itme">
+											<h3><a href="javascript:;">Sports/Outdoors</a></h3>
+										</div>
+										<div class="m-itme">
+											<h3><a href="javascript:;">Mother/Baby</a></h3>
+										</div>
+										<div class="m-itme">
+											<h3><a href="javascript:;">Motor& Car electromice</a></h3>
 										</div>
 									</div>
 								</div>
@@ -722,14 +592,14 @@
 													<dd><a href="##">Business cooperation</a></dd>
 													<dd><a href="##">contact us</a></dd>
 												</dl>
-												<dl class="icon-footenter">
+												<dl class="last-btm-dl">
 													<dt>Social</dt>
-													<dd><a href="##"><img src="imgs/tik.png" alt="" /></a></dd>
-													<dd><a href="##"><img src="imgs/wechat.png" alt="" /></a></dd>
-													<dd><a href="##"><img src="imgs/tik.png" alt="" /></a></dd>
-													<dd><a href="##"><img src="imgs/tik.png" alt="" /></a></a></dd>
-													<dd><a href="##"><img src="imgs/tik.png" alt="" /></a></a></dd>
-													<dd><a href="##"><img src="imgs/tik.png" alt="" /></a></a></dd>
+													<dd><a href="##"><img src="imgs/tik.png" alt="" />Facebook</a></dd>
+													<dd><a href="##"><img src="imgs/wechat.png" alt="" />ins</a></dd>
+													<dd><a href="##"><img src="imgs/tik.png" alt="" />Tik Tok</a></dd>
+													<dd><a href="##"><img src="imgs/tik.png" alt="" />Pinterest</a></dd>
+													<dd><a href="##"><img src="imgs/tik.png" alt="" />YouTube</a></dd>
+													<dd><a href="##"><img src="imgs/wechat.png" alt="" />WhatAPP</a></dd>
 												</dl>
 										    </div>
 										</div>

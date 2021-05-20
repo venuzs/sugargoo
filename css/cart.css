@@ -51,7 +51,7 @@
 	left: 275px;
 }
 .cart-process .cart-process-item3 {
-	right: -158px;
+	right: -148px;
 }
 
 .cart-thead,
@@ -563,7 +563,7 @@
 .order-list li span {
 	color: #F26D00;
 }
-.order-list li i {
+.order-list li i.icon-select {
 	display: inline-block;
 	position: relative;
 	top: 5px;
@@ -601,6 +601,10 @@
 	line-height: 60px;
 	font-weight: bold;
 	margin-right: 15px;
+	margin-left: 60px;
+}
+.to-balance-wap p + p {
+	margin-left: 30px;
 }
 .to-balance-wap p span {
 	font-size: 26px;
@@ -1422,4 +1426,12 @@
 }
 .confi-col-remarks input {
 	margin-top: 0;
+}
+.order-list__line {
+	height: 0;
+	border-bottom: 1px solid #DCDCDC;
+	margin: 10px 0;
+}
+.order-list .fill-select-wap{
+	margin: 10px 0;
 }

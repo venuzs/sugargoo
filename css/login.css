@@ -167,6 +167,7 @@ a:hover {
 	font-size: 20px;
 	background-color: #fff;
 	border: none;
+	color: #F26D00
 }
 .help-center a {
 	width: 120px;
@@ -703,4 +704,45 @@ a:hover {
 }
 .step-mian {
 	margin-bottom: 20px;
+}
+
+/*搜索结果页*/
+.search-result-wap {
+	margin-top: 30px;
+	background-color: #fff;
+	padding: 0 50px 60px;
+}
+.search-result-wap dt,
+.search-result-wap dd {
+	padding: 10px 0;
+	line-height: 30px;
+	font-size: 14px;
+	border-bottom: 1px solid #DCDCDC;
+	color: #333333;
+}
+.search-result-wap dt {
+	color: #F26D00;
+	font-weight: bold;
+}
+.search-empty-wap {
+	padding: 90px 0 150px;
+	background-color: #fff;
+}
+.search-empty-wap img {
+	display: block;
+	width: 145px;
+	height: 105px;
+	margin: 0 auto 8px;
+}
+.search-empty-wap h5 {
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.search-empty-wap p {
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	font-weight: bold;
 }

@@ -852,6 +852,11 @@ strong{font-weight: normal;}
 	height: 24px;
 	background: url(../imgs/mesg.png) no-repeat;
 }
+.lay-top-enter .icon-help {
+	width: 25px;
+	height: 25px;
+	background: url(../imgs/icon-help.png) no-repeat;
+}
 .lay-top-enter:hover {
 	color: #F26D00;
 }
@@ -2076,6 +2081,7 @@ select{
 .el-message-box__form .product-fill-input {
 	margin-bottom: 20px;
 }
+.fill-select-wap .icon-sele-time,
 .icon-sele-time {
 	position: absolute;
   top: 0;

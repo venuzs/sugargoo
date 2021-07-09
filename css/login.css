@@ -746,3 +746,142 @@ a:hover {
 	text-align: center;
 	font-weight: bold;
 }
+
+.submit-tip_num {
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 36px;
+	border-radius: 50%;
+	background-color: #F26D00;
+	margin: 113px auto 25px;
+	color: #fff;
+	font-weight: bold;
+}
+.regist-p1 + .regist-p1 {
+	margin-top: -10px;
+	padding-bottom: 0;
+}
+.submit-tip_txt {
+	text-align: center;
+	line-height: 60px;
+	font-size: 36px;
+	margin: 110px auto 0;
+	color: #F26D00;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.error_tip_txt p {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.error_tip_txt .regist-p1 + .regist-p1 {
+	margin-top: 10px;
+}
+.login-butn.disabled {
+	background-color: #999;
+  color: #fff;
+}
+.icon-clock {
+	width: 35px;
+	height: 40px;
+	background: url(../imgs/accont-clock.png) no-repeat;
+	margin: 20px auto 0;
+}
+.regist-tip-clock {
+	text-transform: none;
+}
+.regist-mesg-box {
+	padding-top: 20px;
+}
+.regist-mesg-box h6,
+.regist-mesg-box p {
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+.forget-tit,
+.forget-tit1 {
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.forget-content .base-color {
+	font-size: 14px;
+}
+.forget-tit1 {
+	margin-bottom: 4px;
+}
+.forget-content {
+	margin-bottom: 100px;
+}
+.forget-p1 {
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.list-main-price {
+	margin-top: 13px;
+	overflow: hidden;
+}
+.list-main-price h6 {
+	float: left;
+	font-size: 20px;
+	line-height: 28px;
+	color: #F26D00;
+	font-weight: bold;
+	margin-left: 0;
+}
+.list-main-price p {
+	float: right;
+	font-size: 12px;
+	line-height: 28px;
+	color: #999;
+}
+.list-main-flag {
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	overflow: hidden;
+	zoom: 1;
+}
+.list-main-flag p {
+	float: left;
+	margin-right: 4px;
+	padding: 0 9px;
+	font-size: 10px;
+	color: #fff;
+	line-height: 20px;
+	border-radius: 10px 0px 10px 0px;
+}
+.list-main-flag p.lsit-main-free {
+	background-color: #FFA154;
+}
+.list-main-flag p.lsit-main-return {
+	background-color: #50E3C2;
+}
+.y_colloclist li {
+	position: relative;
+}
+.y_colloclist .hot-cout-free {
+	position: absolute;
+	top: 23px;
+	right: -10px;
+	width: 80px;
+	height: 30px;
+	overflow: hidden;
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	background: url(../imgs/free-down.png) no-repeat;
+}
+.activated-box {
+	float: none;
+	padding-top: 1px;
+	margin: 50px auto;
+}

@@ -2,7 +2,7 @@
 <html>
 	<head>
 	    <meta charset="UTF-8" />
-	    <title>注册成功页</title>
+	    <title>登录页-输入超过次数提示</title>
 	    <link rel="stylesheet" type="text/css" href="./css/common.css" />
 	    <link rel="stylesheet" type="text/css" href="./css/login.css" />
 	    
@@ -111,27 +111,27 @@
         </div>
         <!--头部信息栏 end-->
         <!--搜索栏 start-->
-        <div class="g-container" style="background-color: #f0f2f5;">
-	        <div class="jp-content">
-	        	<div class="clearfix">
-	        		<div class="lay-logo">
-	        			<a href="javascript:;">
-	        				<img src="imgs/logo.png" alt="" />
-	        			</a>
-	        			<h1>sugargoo</h1>
-	        		</div>
-	        	</div>
-	        </div>
+        <div class="jp-content">
+        	<div class="clearfix">
+        		<div class="lay-logo">
+        			<a href="javascript:;">
+        				<img src="imgs/logo.png" alt="" />
+        			</a>
+        			<h1>sugargoo</h1>
+        		</div>
+        		</div>
+        	</div>
         </div>
         <!--搜索栏 end-->
         
+        
         <div class="g-container" style="background: url(imgs/login-bg.png) center 0 no-repeat;">
         	<div class="jp-content clearfix">
-        		<div class="login-box">
-        			<div class="submit-success"></div>
-        			<h4 class="regist-tip1">congratulations</h4>
-        			<p class="regist-p1">registration success</p>
-        			<button class="login-butn">Sign In</button>
+        		<div class="login-box error_tip_txt">
+        			<div class="submit-tip_txt">Sorry</div>
+        			<p class="base-color regist-p1">You have entered incorrectly more than 5 times</p>
+        			<p class="regist-p1">For your account security, you will not be able to log in within 24 hours</p>
+        			<button class="login-butn">confirm</button>
         		</div>
         	</div>
         </div>
@@ -227,12 +227,7 @@
 	<script src="js/global.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 		$(function(){
-			// 支付方式切换
-			$(".login-tabs a").click(function(){
-				$(this).addClass("active").siblings('a').removeClass("active");
-				var index = $(this).index();
-				$('.login-content-item').hide().eq(index).show();
-			});
+			
 		})
 	</script>
 </html>

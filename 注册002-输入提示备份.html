@@ -2,7 +2,7 @@
 <html>
 	<head>
 	    <meta charset="UTF-8" />
-	    <title>注册成功页</title>
+	    <title>登录页</title>
 	    <link rel="stylesheet" type="text/css" href="./css/common.css" />
 	    <link rel="stylesheet" type="text/css" href="./css/login.css" />
 	    
@@ -111,27 +111,64 @@
         </div>
         <!--头部信息栏 end-->
         <!--搜索栏 start-->
-        <div class="g-container" style="background-color: #f0f2f5;">
-	        <div class="jp-content">
-	        	<div class="clearfix">
-	        		<div class="lay-logo">
-	        			<a href="javascript:;">
-	        				<img src="imgs/logo.png" alt="" />
-	        			</a>
-	        			<h1>sugargoo</h1>
-	        		</div>
-	        	</div>
-	        </div>
+        <div class="jp-content">
+        	<div class="clearfix">
+        		<div class="lay-logo">
+        			<a href="javascript:;">
+        				<img src="imgs/logo.png" alt="" />
+        			</a>
+        			<h1>sugargoo</h1>
+        		</div>
+        		</div>
+        	</div>
         </div>
         <!--搜索栏 end-->
+        
         
         <div class="g-container" style="background: url(imgs/login-bg.png) center 0 no-repeat;">
         	<div class="jp-content clearfix">
         		<div class="login-box">
-        			<div class="submit-success"></div>
-        			<h4 class="regist-tip1">congratulations</h4>
-        			<p class="regist-p1">registration success</p>
-        			<button class="login-butn">Sign In</button>
+        			<div class="login-tabs">
+        				<a class="active" href="javascript:;">SIGN IN</a>
+        				<a href="javascript:;">REGISTER</a>
+        			</div>
+        			
+        			<!--登录-->
+        			<div class="login-content-item">
+        				<div class="from-item">
+        					<input class="fill-input" type="text" placeholder="Email/Username" />
+        				</div>
+        				<div class="from-item">
+        					<input class="fill-input" type="password" placeholder="Password" />
+        				</div>
+        				<div class="form-item clearfix">
+        					<p><i></i>Keep me signed in</p>
+        					<a class="fr" href="javasciprt:;">Forgot your password?</a>
+        				</div>
+        				<button class="login-butn">Sign In</button>
+        			</div>
+        			
+        			<!--注册-->
+        			<div class="login-content-item login-regist-item" style="display: none;">
+        				<div class="from-item">
+        					<input class="fill-input" type="text" placeholder="Email" />
+        				</div>
+        				<div class="from-item">
+        					<input class="fill-input" type="password" placeholder="Create password" />
+        					<span class="error-txt">Please enter a password with more than six digits, including both numbers and letters</span>
+        				</div>
+        				<div class="from-item">
+        					<input class="fill-input" type="password" placeholder="Repeat password" />
+        				</div>
+        				<div class="from-item from-item-code">
+        					<input class="fill-input" type="text" placeholder="Enter the code" />
+        					<a class="yzm-btn" href="javascript:;">Send the code</a>
+        				</div>
+        				<div class="form-item clearfix">
+        					<p class="color_333"><i></i>I have read and agree to the <a class="base-color" href="javascript:;"> "User Service Agreement"</a></p>
+        				</div>
+        				<button class="login-butn login-regist-butn">Register</button>
+        			</div>
         		</div>
         	</div>
         </div>
@@ -220,7 +257,37 @@
 
 					</div>	
         </div>
-      </div>  
+      </div>
+      
+      <!--模态框-->
+      <div class="el-message-box__wrapper" id="elMessage2" style="z-index: 2067; display: none;">
+      	<div class="v-modal" tabindex="0"></div>
+      	<div class="el-message-box m-adrs-mesgbox">
+      		<div class="el-message-box__header">
+      			<div class="el-message-box__title">
+      				<span>Sugargoo Disclaimer</span>
+      			</div>
+      			<button type="button" aria-label="Close" class="el-message-box__headerbtn">x</button>
+      		</div>
+      		<div class="el-message-box__content clearfix">
+      			<ul class="regist-mesg-box">
+      				<li>
+      					<h6>1. Confirmation and acceptance of the terms of service</h6>
+      					<p>The ownership and operation rights of the Sugargoo register user service are owned by “Sugargoo”. The services must be strictly enforced in accordance with the published service charter, terms of service, and operational rules. It also indicates that the user has reached this agreement with Sugargoo and accepted all of its terms of service.</p>
+      				</li>
+      				<li>
+      					<h6>2. Confirmation and acceptance of the terms of service</h6>
+      					<p>The ownership and operation rights of the Sugargoo register user service are owned by “Sugargoo”. The services must be strictly enforced in accordance with the published service charter, terms of service, and operational rules. It also indicates that the user has reached this agreement with Sugargoo and accepted all of its terms of service.</p>
+      				</li>
+      				<li>
+      					<h6>3. Confirmation and acceptance of the terms of service</h6>
+      					<p>The ownership and operation rights of the Sugargoo register user service are owned by “Sugargoo”. The services must be strictly enforced in accordance with the published service charter, terms of service, and operational rules. It also indicates that the user has reached this agreement with Sugargoo and accepted all of its terms of service.</p>
+      				</li>
+      			</ul>
+      		</div>
+      	</div>
+      </div>
+      <!--模态框 end-->
 	</body>
   <script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/owl.carousel.min.js"></script><!--响应式的商品滚动插件-->
@@ -233,6 +300,8 @@
 				var index = $(this).index();
 				$('.login-content-item').hide().eq(index).show();
 			});
+			
+			$.elShow('#elMessage2')
 		})
 	</script>
 </html>

@@ -2,7 +2,7 @@
 <html>
 	<head>
 	    <meta charset="UTF-8" />
-	    <title>注册成功页</title>
+	    <title>登录页-Account lock</title>
 	    <link rel="stylesheet" type="text/css" href="./css/common.css" />
 	    <link rel="stylesheet" type="text/css" href="./css/login.css" />
 	    
@@ -111,27 +111,58 @@
         </div>
         <!--头部信息栏 end-->
         <!--搜索栏 start-->
-        <div class="g-container" style="background-color: #f0f2f5;">
-	        <div class="jp-content">
-	        	<div class="clearfix">
-	        		<div class="lay-logo">
-	        			<a href="javascript:;">
-	        				<img src="imgs/logo.png" alt="" />
-	        			</a>
-	        			<h1>sugargoo</h1>
-	        		</div>
-	        	</div>
-	        </div>
+        <div class="jp-content">
+        	<div class="clearfix">
+        		<div class="lay-logo">
+        			<a href="javascript:;">
+        				<img src="imgs/logo.png" alt="" />
+        			</a>
+        			<h1>sugargoo</h1>
+        		</div>
+        		</div>
+        	</div>
         </div>
         <!--搜索栏 end-->
+        
         
         <div class="g-container" style="background: url(imgs/login-bg.png) center 0 no-repeat;">
         	<div class="jp-content clearfix">
         		<div class="login-box">
-        			<div class="submit-success"></div>
-        			<h4 class="regist-tip1">congratulations</h4>
-        			<p class="regist-p1">registration success</p>
-        			<button class="login-butn">Sign In</button>
+        			<div class="login-tabs">
+        				<a class="active" href="javascript:;">SIGN IN</a>
+        				<a href="javascript:;">REGISTER</a>
+        			</div>
+        			
+        			<!--登录-->
+        			<div class="login-content-item">
+        				<div class="icon-clock"></div>
+        				<h4 class="regist-tip1 regist-tip-clock">Account lock</h4>
+        				<p class="base-color regist-p1">23 hours 56 minutes 55 seconds</p>
+        				<p class="regist-p1">You can log in again later</p>
+        				<button class="login-butn disabled">Sign In</button>
+        			</div>
+        			
+        			<!--注册-->
+        			<div class="login-content-item login-regist-item" style="display: none;">
+        				<div class="from-item">
+        					<input class="fill-input" type="text" placeholder="Email" />
+        				</div>
+        				<div class="from-item">
+        					<input class="fill-input" type="password" placeholder="Create password" />
+        					<span class="error-txt">Please enter a password with more than six digits, including both numbers and letters</span>
+        				</div>
+        				<div class="from-item">
+        					<input class="fill-input" type="password" placeholder="Repeat password" />
+        				</div>
+        				<div class="from-item from-item-code">
+        					<input class="fill-input" type="text" placeholder="Enter the code" />
+        					<a class="yzm-btn" href="javascript:;">Send the code</a>
+        				</div>
+        				<div class="form-item clearfix">
+        					<p class="color_333"><i></i>I have read and agree to the <a class="base-color" href="javascript:;"> "User Service Agreement"</a></p>
+        				</div>
+        				<button class="login-butn login-regist-butn">Register</button>
+        			</div>
         		</div>
         	</div>
         </div>

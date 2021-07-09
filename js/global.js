@@ -47,4 +47,19 @@ $(function () {
 	$(document).on('click','.v-modal,.el-message-box__headerbtn',function (e) {
 		$.elHide('.el-message-box__wrapper')
 	})
+	
+	// 固定头部
+	var searchOffsetH = $('.fixed-search-box').offset().top || 110;
+	var srcollFlag = true;
+	$(window).scroll(function () {
+		if($(window).scrollTop() >= searchOffsetH && srcollFlag) {
+			srcollFlag = false;
+			$('.fixed-search-hold').css('width','100%');
+			$('.fixed-search-box').addClass('fixed')
+		}else if($(window).scrollTop() < searchOffsetH) {
+			srcollFlag = true;
+			$('.fixed-search-hold').css('width','1200px');
+			$('.fixed-search-box').removeClass('fixed')
+		}
+	})
 })

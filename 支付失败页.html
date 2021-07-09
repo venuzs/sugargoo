@@ -2,13 +2,26 @@
 <html>
 	<head>
 	    <meta charset="UTF-8" />
-	    <title>登录页</title>
+	    <title>支付失败页</title>
 	    <link rel="stylesheet" type="text/css" href="./css/common.css" />
-	    <link rel="stylesheet" type="text/css" href="./css/login.css" />
+	    <link rel="stylesheet" type="text/css" href="./css/cart.css" />
 	    
 	  </head>
 	<body>
 		<div class="page">
+		  <!--顶部广告 start-->
+	      <div class="jp-content">
+	        <div class="layer1">
+	          <img src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng650df88d9021516ea7367705d9dbf8eb86b59f1706044029d9a56acfcbd57d9f"/>
+	          <div class="section1">
+	            <span class="word1">
+	              MAKE IT EASY FOR GLOBAL “FROM CHINA TO GLOBAL”
+	            </span>
+	            <span class="info1">VIP member shipping 80%</span>
+	          </div>
+	        </div>
+        </div>
+        <!--顶部广告 end-->
         <!--头部信息栏 start-->
         <div class="layer2">
         	<div class="jp-content">
@@ -111,68 +124,172 @@
         </div>
         <!--头部信息栏 end-->
         <!--搜索栏 start-->
-        <div class="jp-content fixed-search-hold">
-        	<div class="clearfix fixed-search-box">
-        		<div class="lay-logo">
-        			<a href="javascript:;">
-        				<img src="imgs/logo.png" alt="" />
-        			</a>
-        			<h1>sugargoo</h1>
-        		</div>
-        		</div>
-        	</div>
+        <div class="g-container" style="background-color: #f0f2f5;">
+	        <div class="jp-content">
+	        	<div class="clearfix">
+	        		<div class="lay-logo">
+	        			<a href="javascript:;">
+	        				<img src="imgs/logo.png" alt="" />
+	        			</a>
+	        			<h1>sugargoo</h1>
+	        		</div>
+	        	</div>
+	        </div>
         </div>
         <!--搜索栏 end-->
         
-        
-        <div class="g-container" style="background: url(imgs/login-bg.png) center 0 no-repeat;">
-        	<div class="jp-content clearfix">
-        		<div class="login-box">
-        			<div class="login-tabs">
-        				<a class="active" href="javascript:;">SIGN IN</a>
-        				<a href="javascript:;">REGISTER</a>
-        			</div>
-        			
-        			<!--登录-->
-        			<div class="login-content-item">
-        				<div class="from-item">
-        					<input class="fill-input" type="text" placeholder="Email/Username" />
-        				</div>
-        				<div class="from-item">
-        					<input class="fill-input" type="password" placeholder="Password" />
-        				</div>
-        				<div class="form-item clearfix">
-        					<p><i></i>Keep me signed in</p>
-        					<a class="fr" href="javasciprt:;">Forgot your password?</a>
-        				</div>
-        				<button class="login-butn">Sign In</button>
-        			</div>
-        			
-        			<!--注册-->
-        			<div class="login-content-item login-regist-item" style="display: none;">
-        				<div class="from-item">
-        					<input class="fill-input" type="text" placeholder="Email" />
-        				</div>
-        				<div class="from-item">
-        					<input class="fill-input" type="password" placeholder="Create password" />
-        					<span class="error-txt">Please enter a password with more than six digits, including both numbers and letters</span>
-        				</div>
-        				<div class="from-item">
-        					<input class="fill-input" type="password" placeholder="Repeat password" />
-        				</div>
-        				<div class="from-item from-item-code">
-        					<input class="fill-input" type="text" placeholder="Enter the code" />
-        					<a class="yzm-btn" href="javascript:;">Send the code</a>
-        				</div>
-        				<div class="form-item clearfix">
-        					<p class="color_333"><i></i>I have read and agree to the <a class="base-color" href="javascript:;"> "User Service Agreement"</a></p>
-        				</div>
-        				<button class="login-butn login-regist-butn">Register</button>
-        			</div>
-        		</div>
+        <!--支付成功-->
+        <div class="jp-content">
+        	<div class="pay-suc-wap">
+        		<div class="submit-success faild"></div>
+        		<h5>Sorry, payment failed!</h5>
+        		<p>The order will be cancelled after <span class="base-color">3 hours, 56 minutes and 28 seconds</span></p>
+        		<a href="javascript:;">Go to member center</a>
         	</div>
         </div>
         
+        <!--标题栏 start-->
+				<div class="g-container">
+					<div class="jp-content">
+						<h4 class="page-title">Recommended transfer lines</h4>
+						<a class="page-title-a" href="javascript:;"><span>Freight estimate</span></a>
+					</div>
+				</div>
+				<!--标题栏 end-->
+        
+        <div class="g-container">
+        	<div class="jp-content">
+        		<div class="step-mian">
+	        		<div class="step-mian-cout clearfix">
+								<div class="step-mian-item">
+									<div class="step-item-input">
+										<a href="javascript:;" class="icon-lower">$</a>
+										<div>Lowest freight</div>
+									</div>
+									<div class="step-item-info">
+										<ul>
+											<li>
+												<p>Mailing country</p>
+												<h6>USA</h6>
+											</li>
+											<li>
+												<p>U.S. Air Mail Line</p>
+												<h6>A(0-5,000g)</h6>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<p>First weight (100g)</p>
+												<h6 class="hover-color">￥20</h6>
+											</li>
+											<li>
+												<p>Continued weight (100g)</p>
+												<h6 class="hover-color">￥11</h6>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<p>Delivery time (days)</p>
+												<h6>15-20</h6>
+											</li>
+											<li>
+												<p>Line characteristics</p>
+												<h6>General cargo line</h6>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="step-mian-item">
+									<div class="step-item-input">
+										<a href="javascript:;" class="icon-fastest"></a>
+										<div>Fastest mailing</div>
+									</div>
+									<div class="step-item-info">
+										<ul>
+											<li>
+												<p>Mailing country</p>
+												<h6>USA</h6>
+											</li>
+											<li>
+												<p>U.S. Air Mail Line</p>
+												<h6>A(0-5,000g)</h6>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<p>First weight (100g)</p>
+												<h6 class="hover-color">￥20</h6>
+											</li>
+											<li>
+												<p>Continued weight (100g)</p>
+												<h6 class="hover-color">￥11</h6>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<p>Delivery time (days)</p>
+												<h6>15-20</h6>
+											</li>
+											<li>
+												<p>Line characteristics</p>
+												<h6>General cargo line</h6>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="step-mian-item">
+									<div class="step-item-input">
+										<a href="javascript:;" class="icon-strong"></a>
+										<div>Strongest clearance ability</div>
+									</div>
+									<div class="step-item-info">
+										<ul>
+											<li>
+												<p>Mailing country</p>
+												<h6>USA</h6>
+											</li>
+											<li>
+												<p>U.S. Air Mail Line</p>
+												<h6>A(0-5,000g)</h6>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<p>First weight (100g)</p>
+												<h6 class="hover-color">￥20</h6>
+											</li>
+											<li>
+												<p>Continued weight (100g)</p>
+												<h6 class="hover-color">￥11</h6>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<p>Delivery time (days)</p>
+												<h6>15-20</h6>
+											</li>
+											<li>
+												<p>Line characteristics</p>
+												<h6>General cargo line</h6>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+        	</div>
+        </div>
+        
+        
+        
+        
+		
+			<div class="g-container g-baseCont mt_60">
+				<div class="jp-content">
+					<h6>Professional purchasing platform</h6>
+					<p>Enjoy the most intimate purchasing service and transshipment service, manage your merchandise orders throughout the process</p>
+				</div>
+			</div>
 			
 			<!--底部导航-->
 			<div class="g-container" >
@@ -264,12 +381,7 @@
 	<script src="js/global.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 		$(function(){
-			// 登录方式切换
-			$(".login-tabs a").click(function(){
-				$(this).addClass("active").siblings('a').removeClass("active");
-				var index = $(this).index();
-				$('.login-content-item').hide().eq(index).show();
-			});
+			
 		})
 	</script>
 </html>

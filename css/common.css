@@ -1269,6 +1269,18 @@ strong{font-weight: normal;}
 .crumb a:hover {
 	color: #F26D00;
 }
+.crumb .list-box {
+	display: inline-block;
+	min-width: 90px;
+	border: 1px solid #DCDCDC;
+	padding: 0 10px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	color: #F26D00;
+	background: #fff url(../imgs/down.png) 95% center no-repeat;
+}
+
 .purchase-notice {
 	position: absolute;
 	top: 20px;
@@ -2149,4 +2161,162 @@ select{
 	color: #F26D00;
 	border-color: #F26D00;
 	cursor: pointer;
+}
+
+/*登录弹框样式*/
+.el-login-box__wrapper .el-message-box {
+	width: 440px;
+	border: none;
+}
+.el-login-box__wrapper .el-message-box__content {
+	padding: 0;
+}
+.el-message-box .login-content-item .fill-input{
+	margin-right: 0;
+}
+.el-message-box .login-box {
+	width: 360px;
+	padding: 0 40px;
+	min-height: 388px;
+	background-color: #fff;
+}
+.el-message-box .login-tabs {
+	padding: 32px 0 20px;
+	border-bottom: 1px solid #DCDCDC;
+	text-align: center;
+	font-size: 0;
+	margin-bottom: 40px;
+}
+.el-message-box .login-tabs a {
+	display: inline-block;
+	width: 50%;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	position: relative;
+	font-weight: bold;
+}
+.el-message-box .login-tabs a:hover {
+	color: #F26D00;
+}
+.el-message-box .login-tabs a.active {
+	color: #F26D00;
+}
+.el-message-box .login-tabs a.active::after {
+	content: '';
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	right: 0;
+	height: 4px;
+	background-color: #F26D00;
+}
+.el-message-box .from-item {
+	margin-bottom: 20px;
+	
+}
+.el-message-box .from-item .fill-input{
+	width: 340px;
+	padding: 9px;
+}
+.el-message-box .from-item .fill-input:focus {
+	border-color: #F26D00;
+}
+
+.el-message-box .form-item > p {
+	float: left;
+	font-size: 14px;
+	line-height: 22px;
+	color: #F26D00;
+	cursor: pointer;
+}
+.el-message-box .form-item > p.color_333 {
+	font-size: 12px;
+	color: #333;
+}
+.el-message-box .form-item > p.color_333 a {
+	color: #F26D00;
+}
+.el-message-box .form-item > p > i {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	vertical-align: middle;
+	margin-right: 6px;
+	background: url(../imgs/list-off.png) no-repeat;
+}
+.el-message-box .form-item > p > i.current {
+	background-image: url(../imgs/list-on.png);
+}
+.el-message-box .form-item > a.fr{
+	font-size: 14px;
+	line-height: 22px;
+}
+a:hover {
+	color: #F26D00;
+}
+.el-message-box .login-butn {
+	margin-top: 40px;
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	color: #fff;
+	border: none;
+	background-color: #F26D00;
+	outline: none;
+}
+.el-message-box .login-regist-butn {
+	margin-top: 20px;
+}
+.el-message-box .from-item-code {
+	position: relative;
+}
+.el-message-box .from-item-code .yzm-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 118px;
+	height: 38px;
+	border: 1px solid #F26D00;
+	text-align: center;
+	line-height: 38px;
+	background-color: #FFFAC3;
+	color: #F26D00;
+	font-size: 14px;
+}
+.el-message-box .login-regist-item {
+	margin-top: -20px;
+}
+.el-message-box .error-txt {
+	display: block;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 6px 0;
+	color: #F26D00;
+	margin-bottom: -20px;
+}
+
+.fixed-search-hold {
+	height: 100px;
+	transition: width 0.3s; 
+}
+.fixed-search-box {
+	z-index: 999;
+}
+.fixed-search-box.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding:0 20px;
+	background-color: #fff;
+	text-align: center;
+}
+.fixed-search-box.fixed .lay-top-search {
+	float: none;
+	display: inline-block;
+	width: 51%;
+}
+.fixed-search-box.fixed .lay-top-search input {
+	width: 70.59%;
 }

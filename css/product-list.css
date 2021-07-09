@@ -286,7 +286,7 @@
 	color: #F26D00;
 	font-weight: bold;
 }
-.list-main-price p {
+.list-main-price > p {
 	float: right;
 	font-size: 12px;
 	line-height: 28px;
@@ -342,4 +342,68 @@
 }
 .list-main-recommended .fr a:hover {
 	transform: translateX(3px);
+}
+
+
+.list-main-items.list-main-aline ul{
+	margin-left: 0;
+}
+.list-main-items.list-main-aline ul li {
+	float: none;
+	width: 100%;
+  margin-left: 0;
+  padding: 30px 0 15px;
+  border-bottom: 1px solid #DCDCDC;
+  overflow: hidden;
+}
+.list-main-items.list-main-aline ul li a {
+	padding: 0 10px;
+}
+.list-main-items.list-main-aline ul li .m-pic {
+	float: left;
+	width: 120px;
+	height: 120px;
+	margin-bottom: 0;
+	position: relative;
+}
+.list-main-items.list-main-aline .hot-cout-free {
+	right: inherit;
+	left: 86px;
+}
+.list-main-items.list-main-aline ul li .list-proname {
+	float: left;
+	width: 240px;
+	height: 120px;
+	-webkit-line-clamp: 6;
+	margin-left: 55px;
+}
+.list-main-items.list-main-aline .list-main-price {
+	float: left;
+	width: 143px;
+	min-height: 120px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 70px;
+}
+.list-main-items.list-main-aline .list-main-price h6 {
+	float: none;
+}
+.list-main-items.list-main-aline .list-main-flag {
+	position: static;
+}
+.list-main-items.list-main-aline .list-main-flag p {
+	float: none;
+	margin-top: 8px;
+}
+.list-main-items.list-main-aline .list-price-cout {
+	float: right;
+  font-size: 12px;
+  line-height: 28px;
+  color: #999;
+  margin-top: 60px;
+}
+.list-main-head .fr .list-v-dots.active div {
+	background-color: #F26D00;
 }

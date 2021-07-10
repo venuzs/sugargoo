@@ -1303,46 +1303,7 @@
 	border-bottom: none;
 }
 
-.dg-Mailing-items {
-	margin-left: -18px;
-}
-.dg-Mailing-item {
-	float: left;
-	width: 456px;
-	padding: 36px 25px 20px 110px;
-	margin-left: 18px;
-	margin-bottom: 20px;
-	background-color: #fff;
-	position: relative;
-}
-.dg-Mailing-item .m-pic {
-	position: absolute;
-	top: 40px;
-	left: 35px;
-	width: 60px;
-	height: 60px;
-}
-.dg-Mailing-item h6 {
-	font-size: 16px;
-	line-height: 22px;
-	color: #F26D00;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	overflow: auto;
-	font-weight: bold;
-	margin-bottom: 7px;
-	text-transform: uppercase;
-}
-.dg-Mailing-item p {
-	font-size: 12px;
-	line-height: 17px;
-	height: 54px;
-	overflow: hidden;
-	display: -webkit-box;
-	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 3;
-	text-overflow: ellipsis;
-}
+
 
 .cart-col-remarks {
 	margin-top: 10px;

@@ -49,7 +49,7 @@ $(function () {
 	})
 	
 	// 固定头部
-	var searchOffsetH = $('.fixed-search-box').offset().top || 110;
+	var searchOffsetH = $('.fixed-search-box').offset() ? $('.fixed-search-box').offset().top : 110;
 	var srcollFlag = true;
 	$(window).scroll(function () {
 		if($(window).scrollTop() >= searchOffsetH && srcollFlag) {

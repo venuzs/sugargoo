@@ -1927,7 +1927,8 @@ select{
 	display: inline-block;
 	position: relative;
 }
-.fill-select-wap i {
+.fill-select-wap i,
+.purchase-contrl i {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -2319,4 +2320,83 @@ a:hover {
 }
 .fixed-search-box.fixed .lay-top-search input {
 	width: 70.59%;
+}
+
+
+.dg-Mailing-items {
+	margin-left: -18px;
+}
+.dg-Mailing-item {
+	float: left;
+	width: 456px;
+	padding: 36px 25px 20px 110px;
+	margin-left: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	position: relative;
+}
+.dg-Mailing-item .m-pic {
+	position: absolute;
+	top: 40px;
+	left: 35px;
+	width: 60px;
+	height: 60px;
+}
+.dg-Mailing-item h6 {
+	font-size: 16px;
+	line-height: 22px;
+	color: #F26D00;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: auto;
+	font-weight: bold;
+	margin-bottom: 7px;
+	text-transform: uppercase;
+}
+.dg-Mailing-item p {
+	font-size: 12px;
+	line-height: 17px;
+	height: 54px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	text-overflow: ellipsis;
+}
+
+.no-result {
+	background-color: #fff;
+	padding: 0 70px 120px;
+	font-size: 14px;
+	line-height: 36px;
+	text-align: center;
+}
+.no-result p a {
+	font-weight: bold;
+	color: #F26D00;
+}
+.search-empty-wap {
+	padding: 90px 0 150px;
+	background-color: #fff;
+}
+.no-result .search-empty-wap {
+	padding-bottom: 30px;
+}
+.search-empty-wap img {
+	display: block;
+	width: 145px;
+	height: 105px;
+	margin: 0 auto 8px;
+}
+.search-empty-wap h5 {
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.search-empty-wap p {
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	font-weight: bold;
 }

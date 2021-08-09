@@ -189,6 +189,36 @@
 										<div class="cart-list-edit">
 											<p title="Colour: Black">Colour: Black</p>
 											<p title="Size: L">Size: L</p>
+											<a href="javascript:;" class="cart-edit-btn">Edit</a>
+											<div class="lay-edit-wap">
+												<div class="lay-top-cont lay-edit-cont">
+													<button class="lay-edit-close"></button>
+			                  	<div class="lay-edit-attrs fl">
+			                  		<dl>
+			                  			<dt>Colour</dt>
+			                  			<!--<dd><img src="" alt="" /></dd>-->
+			                  			<dd style="background-color: #C03E3E;"></dd>
+			                  			<dd style="background-color: #327B31;"></dd>
+			                  			<dd style="background-color: #1EB1E6;"></dd>
+			                  			<dd style="background-color: #327B31;"></dd>
+			                  		</dl>
+			                  		<dl>
+			                  			<dt>Size</dt>
+			                  			<dd>xl</dd>
+			                  			<dd class="active">L</dd>
+			                  			<dd>S</dd>
+			                  			<dd>M</dd>
+			                  		</dl>
+			                  		<a href="javascript:;" class="m-order-btn">Updata</a>
+			                  	</div>
+			                  	<div class="lay-edit-pros fl">
+			                  		<div class="m-pic">
+			                  			<img src="imgs/demo/de-pro4.png" alt="" />
+			                  		</div>
+			                  		<p>Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super</p>
+			                  	</div>
+				        				</div>
+			        				</div>
 										</div>
 									</div>
 									
@@ -578,6 +608,14 @@
 			 
 			$('.icon-select').click(function () {
 				$(this).toggleClass('current')
+			})
+			
+			$('.cart-edit-btn').click(function () {
+				$(this).parent('.cart-list-edit').find('.lay-edit-wap').show()
+			})
+			
+			$('.lay-edit-close').click(function () {
+				$(this).parents('.lay-edit-wap').hide()
 			})
 		})
 	</script>

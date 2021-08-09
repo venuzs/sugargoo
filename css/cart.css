@@ -177,8 +177,7 @@
 	white-space: nowrap;
 	text-overflow: ellipsis;
 }
-.cart-tbody-tr .cart-list-edit::after {
-	content: 'Edit';
+.cart-tbody-tr .cart-list-edit .cart-edit-btn {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -197,7 +196,7 @@
 .cart-tbody-tr .cart-list-edit:hover p {
 	color: #F26D00;
 }
-.cart-tbody-tr .cart-list-edit:hover::after {
+.cart-tbody-tr .cart-list-edit:hover .cart-edit-btn {
 	display: block;
 }
 .cart-tbody-tr .base-price {
@@ -1797,4 +1796,97 @@
 .y_butbutn .butn.butn_custom2:hover {
 	background-color: #F26D00;
 	color: #fff;
+}
+
+.lay-edit-wap {
+	position: relative;
+	display: none;
+}
+.lay-edit-cont {
+	right: inherit;
+  left: 0;
+  width: 420px;
+  font-weight: normal;
+  display: block;
+  top: 10px;
+}
+.lay-edit-wap .lay-top-cont::after {
+	right: 410px;
+}
+.lay-edit-wap .lay-top-cont .lay-edit-attrs {
+	width: 250px;
+	border-right: 1px solid #DCDCDC;
+	margin-right: 20px;
+}
+.lay-edit-wap .lay-top-cont dl {
+	margin-bottom: 10px;
+}
+.lay-edit-wap .lay-top-cont dt {
+	width: 100%;
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.lay-edit-wap .lay-top-cont dd {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #DCDCDC;
+}
+.lay-edit-wap .lay-top-cont dd.active {
+	border: 1px solid #F26D00;
+	color: #F26D00;
+}
+.lay-edit-wap .lay-top-cont .lay-edit-pros {
+	width: 140px;
+}
+.lay-edit-wap .lay-top-cont .lay-edit-pros .m-pic {
+	float: none;
+	width: 80px;
+	height: 80px;
+	margin: 5px 0 20px;
+}
+.lay-edit-wap .lay-top-cont .lay-edit-pros .m-pic img {
+	width: 100%;
+	height: 100%;
+}
+.lay-edit-wap .lay-top-cont .lay-edit-pros p {
+	margin-left: 0px;
+	height: 60px;
+	white-space: normal;
+	color: #333 !important;
+	}
+.lay-edit-wap .lay-top-cont .lay-edit-pros p {
+	
+}
+.lay-edit-wap .lay-top-cont .m-order-btn {
+	width: 70px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #F26D00;
+  padding: 0 !important;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.lay-top-cont .m-order-btn:hover {
+  background-color: #f5a15d;
+}
+.lay-edit-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 18px;
+	padding: 0;
+	border: none;
+	height: 18px;
+	background: #DCDCDC url(../imgs/615d.png) center no-repeat;
+	background-size: 8px 8px;
+	border-radius: 50%;
+	outline: none;
 }

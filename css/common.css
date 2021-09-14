@@ -2385,3 +2385,34 @@ a:hover {
 	text-align: center;
 	font-weight: bold;
 }
+
+/*2021/9/12 头部导航退出登录弹框*/
+.lay-login_out {
+	width: 173px;
+	font-size: 12px;
+	line-height: 40px;
+	color: #333;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 4px;
+	margin-top: -10px;
+}
+.lay-login_out li {
+	border-bottom: 1px solid #DCDCDC;
+}
+.lay-login_out li:last-of-type {
+	border-bottom: none;
+}
+.lay-login_out li .base-color {
+	color: #F26D00
+}
+.lay-top-cont .lay-login_out__btn {
+	width: 173px;
+	font-size: 14px;
+	color: #F26D00;
+	background-color: #FFCBA0;
+	margin-bottom: 14px;
+}
+.lay-top-cont .lay-login_out__btn:hover {
+	color: #fff;
+}

@@ -2711,3 +2711,342 @@ div[class^='m-address-th'] {
 	align-items: center;
 	padding-right: 20px;
 }
+
+/*2021/9/11 新增会员中心支付弹框样式*/
+.el-message-centerpaybox__wrapper .el-message-box {
+	width: 400px;
+	border: none;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 0;
+}
+.el-message-centerpaybox__wrapper .el-message-box__content {
+	padding: 0;
+}
+.el-message-centerpaybox__wrapper .m-centerpaybox__hearder {
+	height: 90px;
+	line-height: 90px;
+	font-size: 20px;
+	line-height: 90px;
+	color: #fff;
+	background-color: #fff;
+	background: #F26D00;
+	background: linear-gradient(270deg, #F26D00 0%, #F25600 100%);
+	text-align: center;
+	position: relative;
+	border-radius: 10px 10px 0px 0px;
+	text-transform: uppercase;
+}
+.el-message-centerpaybox__wrapper .m-centerpaybox__close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 30px;
+	height: 30px;
+	background: rgba(51,51,51,0.36);
+	border-radius: 0px 10px 0px 10px;
+	color: #333;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: none;
+}
+.el-message-centerpaybox__wrapper .m-centerpaybox__body {
+	padding: 20px;
+	text-align: center;
+}
+.el-message-centerpaybox__wrapper .m-centerpaybox__body h4 {
+	font-size: 32px;
+	line-height: 45px;
+	text-align: center;
+	color: #F26D00;
+}
+.el-message-centerpaybox__wrapper .m-centerpaybox__body p {
+	font-size: 14px;
+	color: #333;
+	line-height: 20px;
+}
+.el-message-centerpaybox__wrapper .m-centerpaybox__body .m-centerpaybox__ma {
+	width: 164px;
+	height: 164px;
+	position: relative;
+	border-radius: 6px;
+	border: 3px solid #F26D00;
+	margin: 20px auto;
+}
+.el-message-centerpaybox__wrapper .m-centerpaybox__body .m-centerpaybox__ma::before {
+	content: '';
+	position: absolute;
+	left: -4px;
+	right: -4px;
+	top: 50%;
+	margin-top: -64px;
+	background-color: #fff;
+	height: 128px;
+}
+.el-message-centerpaybox__wrapper .m-centerpaybox__body .m-centerpaybox__ma::after {
+	content: '';
+	position: absolute;
+	top: -4px;
+	bottom: -4px;
+	left: 50%;
+	margin-left: -64px;
+	background-color: #fff;
+	width: 128px;
+}
+.el-message-centerpaybox__wrapper .m-centerpaybox__body .m-centerpaybox__ma img {
+	display: block;
+	width: 153px;
+	height: 153px;
+	margin: 5px auto;
+	position: relative;
+	z-index: 99;
+}
+.el-message-centerpaybox__wrapper .m-centerpay-info {
+	width: 215px;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	margin: 0 auto;
+}
+.el-message-centerpaybox__wrapper .m-centerpaybox__footer {
+	padding: 17px 40px 15px;
+	background-color: #F9F9F9;
+	text-align: center;
+	font-size: 12px;
+	line-height: 18px;
+}
+.el-message-centerpaybox__wrapper .m-centerpaybox__footer .base-color {
+	color: #F26D00;
+}
+
+
+/*2021/9/13 买手采购管理样式*/
+.m-order_searchiptbox_row {
+	float: none;
+	width: 100%;
+	margin-right: 0;
+	border-right: none;
+}
+.m-order_searchiptbox.m-order_searchiptbox_row input {
+	width: 874px;
+}
+.m-order_searchiptbox.m-order_searchiptbox_row a {
+	background-color: #F26D00;
+	color: #fff;
+	border-color: #F26D00;
+}
+.order-col-101 {
+	width: 101px;
+}
+.order-col-101 .m-order-btn {
+	width: auto;
+	white-space: nowrap;
+}
+.m-limit-buy .m-limit-buy-icon {
+	display: block;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #F26D00;
+	border-radius: 50%;
+	margin: -16px auto 0;
+	background: url(../imgs/pay-lock.png) 55% 45% no-repeat;
+	-webkit-background-size: 4px 5px;
+	background-size: 4px 5px;
+}
+.m-limit-buy .base-color {
+	margin-bottom: 6px;
+}
+.m-limit-buy .m-limit-buy-timer {
+	font-size: 10px;
+	color: #999;
+	line-height: 16px;
+}
+.m-maishou_cgorder {
+	padding: 20px;
+	border: 1px solid #F26D00;
+	overflow: hidden;
+}
+.m-maishou_cgorder .m-maishou_cgorder_item {
+	float: left;
+	width: 33.3%;
+	font-size: 0;
+}
+.m-maishou_cgorder .m-maishou_cgorder_item label {
+	font-size: 14px;
+	line-height: 30px;
+}
+.m-maishou_cgorder .m-maishou_cgorder_item .m-ms_cg_itemctrl {
+	display: inline-block;
+	
+}
+.m-maishou_cgorder .m-maishou_cgorder_item .m-ms_cg_itemctrl input {
+	width: 180px;
+	height: 28px;
+	border: 1px solid #DCDCDC;
+	line-height: 28px;
+	padding: 0 10px;
+}
+
+.el-message-warningbox__wrapper .el-message-box__btns_more .el-button {
+	width: auto;
+	padding: 7px 34px;
+}
+.el-message-box__btns_more .el-button + .el-button {
+	margin-left: 8px;
+}
+.m-edit-concat-icon {
+	margin-left: 44px;
+	font-size: 14px;
+	line-height: 24px;
+}
+.m-edit-concat-icon i {
+	display: inline-block;
+	width: 25px;
+	height: 24px;
+	background: url(../imgs/mesg_on.png);
+	position: relative;
+	top: 6px;
+	margin-right: 4px;
+}
+.m-edit-qhclbox-t {
+	margin-top: 15px;
+}
+.m-edit-qhclbox-t label {
+	font-size: 14px;
+	display: inline-block;
+}
+.m-edit-qhclbox-t textarea {
+	display: inline-block;
+	font-size: 14px;
+	width: 318px;
+	height: 108px;
+	border: 1px solid #DCDCDC;
+	padding: 4px 10px;
+	resize: none;
+	vertical-align: top;
+}
+.m-maishou_topmoney .m-withdraw_topmoney h4 {
+	font-size: 18px;
+}
+.m-maishou_topmoney .m-order-btn {
+	width: 44px;
+}
+
+.m-customer-info__grlabel {
+	min-height: 400px;
+}
+
+.m-customer-info__goodlv {
+	width: 156px;
+	height: 156px;
+	border: 4px solid #F26D00;
+	text-align: center;
+	margin: 38px auto;
+	border-radius: 50%;
+}
+.m-customer-info__goodlv h4 {
+	font-size: 60px;
+	color: #F26D00;
+	text-align: center;
+	margin-top: 20px;
+}
+.m-customer-info__goodlv p {
+	font-size: 12px;
+	font-weight: bold;
+}
+.icon-star-items {
+	font-size: 0;
+	margin-top: 5px;
+}
+.icon-star-items .icon-star {
+	display: inline-block;
+	width: 20px;
+	height: 19px;
+	background: url(../imgs/star-on.png) no-repeat;
+}
+.icon-star-items .icon-star.star_off {
+	background-image: url(../imgs/star.png);
+}
+.m-customer-info__grlabel h5 {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.m-customer-info__grlabel .grlabels {
+	font-size: 0;
+}
+.m-customer-info__grlabel .grlabels span {
+	display: inline-block;
+	padding: 0 10px;
+	min-width: 80px;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	background-color: rgba(153, 153, 153, 0.2);
+	color: #999;
+	font-size: 14px;
+}
+.m-customer-info__grlabel .grlabels span.base-color {
+	color: #F26D00;
+	background-color: rgba(242, 109, 0, 0.2);
+}
+.m-maishou_eva_cont {
+	min-height: auto;
+	text-align: left;
+	padding-left: 10px;
+}
+.m-maishou_eva_text {
+	width: 310px;
+	padding: 2px 4px;
+	border: 1px solid #979797;
+}
+.m-maishou_evaluate_table {
+	padding: 20px 16px 80px;
+}
+.m-maishou_evaluate_table table{
+	border: 1px solid #DCDCDC;
+	
+}
+.m-maishou_evaluate_table th,
+.m-maishou_syi_table th {
+	background-color: #E2E2E2;
+	font-weight: normal;
+	font-size: 14px;
+}
+.m-maishou_evaluate_table table td {
+	padding: 20px 0;
+}
+.m-maishou-mesg {
+	padding: 20px 16px 80px;
+}
+.m-maishou-mesg ul li {
+	overflow: hidden;
+	border-bottom: 1px solid #DCDCDC;
+}
+.m-maishou-mesg ul li p {
+	float: left;
+	width: 70%;
+	font-size: 14px;
+	line-height: 50px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.m-maishou-mesg ul li p.fz-bold {
+	font-weight: bold;
+}
+.m-maishou-mesg ul li span {
+	float: right;
+	font-size: 12px;
+	line-height: 50px;
+	color: #999;
+}
+.m-maishou_syi_table {
+	padding: 20px 18px 80px;
+}
+.m-maishou_syi_table table td {
+	padding-left: 10px;
+	padding-right: 10px;
+}

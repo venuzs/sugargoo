@@ -478,7 +478,7 @@
 											</div>
 											<div class="fr"></div>
 										</div>
-										<div class="m-order_tabletd">
+										<div class="m-order_tabletd cleared">
 											<div class="order-col-1">
 												<div class="m-order-pic">
 													<img src="imgs/demo/pro-list1.png" alt="" />
@@ -492,7 +492,41 @@
 											</div>
 											<div class="order-col-2"></div>
 											<div class="order-col-3">38</div>
-											<div class="order-col-4">$30.00<br/><span class="fz10">Fine photo</span></div>
+											<div class="order-col-4 clearfix">
+												$30.00<br/>
+												<div class="service-modelwap">
+													<span class="fz10 service-btn">service</span>
+													<div class="lay-top-cont lay-top_mservice">
+					        					<ul class="lay-coupon-drop">
+					        						<li>
+					        							<div class="m-service_head">
+					        								<div class="m-service_headname">Free photo</div>
+					        								<div class="m-service_headtxt">The service has been completed <i></i></div>
+					        							</div>
+					        							<div class="m-service_imgs">
+					        								<span><img src="imgs/demo/de-leftinfo2.png"/></span>
+					        								<span><img src="imgs/demo/de-leftinfo2.png"/></span>
+					        								<span><img src="imgs/demo/de-leftinfo2.png"/></span>
+					        								<span><img src="imgs/demo/de-leftinfo2.png"/></span>
+					        								<span><img src="imgs/demo/de-leftinfo2.png"/></span>
+					        							</div>
+					        						</li>
+					        						<li>
+					        							<div class="m-service_head">
+					        								<div class="m-service_headname">Priority purchase$10.00</div>
+					        								<div class="m-service_headtxt">The service has been completed <i></i></div>
+					        							</div>
+					        						</li>
+					        						<li>
+					        							<div class="m-service_head">
+					        								<div class="m-service_headname">Priority purchase$10.00</div>
+					        								<div class="m-service_headtxt">The service has been completed <i></i></div>
+					        							</div>
+					        						</li>
+					        					</ul>
+					        				</div>
+				        				</div>
+											</div>
 											<div class="order-col-5"></div>
 											<div class="order-col-6"></div>
 											<div class="order-col-7">$30<br/><span class="fz10">Including freight ¥0.00</span></div>
@@ -535,7 +569,7 @@
 											</div>
 											<div class="order-col-2">$39.00</div>
 											<div class="order-col-3">1</div>
-											<div class="order-col-4">$2.00<br/><span class="fz10">Fine photo</span></div>
+											<div class="order-col-4">$2.00<br/><span class="fz10 service-btn">service</span></div>
 											<div class="order-col-5"></div>
 											<div class="order-col-6">
 												<div class="m-buyer-info">
@@ -584,7 +618,7 @@
 											</div>
 											<div class="order-col-2">$39.00</div>
 											<div class="order-col-3">1</div>
-											<div class="order-col-4">$2.00<br/><span class="fz10">Fine photo</span></div>
+											<div class="order-col-4">$2.00<br/><span class="fz10 service-btn">service</span></div>
 											<div class="order-col-5">Refund</div>
 											<div class="order-col-6">
 												<div class="m-buyer-info">
@@ -621,7 +655,7 @@
 											</div>
 											<div class="order-col-2">$39.00</div>
 											<div class="order-col-3">1</div>
-											<div class="order-col-4">$2.00<br/><span class="fz10">Fine photo</span></div>
+											<div class="order-col-4">$2.00<br/><span class="fz10 service-btn">service</span></div>
 											<div class="order-col-5">Refund</div>
 											<div class="order-col-6"></div>
 											<div class="order-col-7"></div>
@@ -660,7 +694,7 @@
 											</div>
 											<div class="order-col-2">$39.00</div>
 											<div class="order-col-3">1</div>
-											<div class="order-col-4">$2.00<br/><span class="fz10">Fine photo</span></div>
+											<div class="order-col-4">$2.00<br/><span class="fz10 service-btn">service</span></div>
 											<div class="order-col-5">Refund</div>
 											<div class="order-col-6">
 												<div class="m-buyer-info">
@@ -698,7 +732,7 @@
 											</div>
 											<div class="order-col-2">$39.00</div>
 											<div class="order-col-3">1</div>
-											<div class="order-col-4">$2.00<br/><span class="fz10">Fine photo</span></div>
+											<div class="order-col-4">$2.00<br/><span class="fz10 service-btn">service</span></div>
 											<div class="order-col-5">Refund</div>
 											<div class="order-col-6"></div>
 											<div class="order-col-7"></div>
@@ -737,7 +771,7 @@
 											</div>
 											<div class="order-col-2">$39.00</div>
 											<div class="order-col-3">1</div>
-											<div class="order-col-4">$2.00<br/><span class="fz10">Fine photo</span></div>
+											<div class="order-col-4">$2.00<br/><span class="fz10 service-btn">service</span></div>
 											<div class="order-col-5"><span class="base-color">Refunding</span></div>
 											<div class="order-col-6">
 												<div class="m-buyer-info">
@@ -1023,6 +1057,11 @@
 			$('.m-centerpaybox__close').click(function () {
 				$.elHide('#elMessage2')
 			})
+			
+			
+			// 表格弹框 9/24
+			$('.m-order_tabletd.cleared').append('<div style="clear: both;"></div>')
+			
 		})
 	</script>
 </html>

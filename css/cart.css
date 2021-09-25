@@ -1809,6 +1809,7 @@
   font-weight: normal;
   display: block;
   top: 10px;
+  z-index: 999;
 }
 .lay-edit-wap .lay-top-cont::after {
 	right: 410px;
@@ -1829,16 +1830,26 @@
 }
 .lay-edit-wap .lay-top-cont dd {
 	display: inline-block;
-	width: 30px;
+	min-width: 30px;
 	height: 30px;
 	font-size: 14px;
 	text-align: center;
 	line-height: 30px;
 	border: 1px solid #DCDCDC;
 }
+.lay-edit-wap .lay-top-cont .lay-edit-longdd dd {
+	width: 210px;
+	padding: 0 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
 .lay-edit-wap .lay-top-cont dd.active {
 	border: 1px solid #F26D00;
 	color: #F26D00;
+	background: url(../imgs/gwc-cur.png) right bottom no-repeat;
 }
 .lay-edit-wap .lay-top-cont .lay-edit-pros {
 	width: 140px;

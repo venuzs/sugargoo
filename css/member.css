@@ -3103,10 +3103,56 @@ div[class^='m-address-th'] {
 	top: 28px;
 	right: inherit;
 	left: 0px;
+	padding-bottom: 20px;
 }
 .lay-top_mservice.lay-top-cont::after {
 	left: 32px;
 	right: inherit;
+}
+.lay-top_mservice .m-service_head {
+	overflow: hidden;
+	padding: 8px 0;
+	border-bottom: 1px solid #DCDCDC;
+}
+.lay-top_mservice .m-service_headname {
+	float: left;
+	font-size: 12px;
+	line-height: 18px;
+	color: #F26D00;
+	font-weight: bold;
+}
+.lay-top_mservice .m-service_headtxt {
+	float: right;
+	font-size: 10px;
+	line-height: 18px;
+	font-weight: bold;
+}
+.lay-top_mservice .m-service_headtxt i {
+	display: inline-block;
+	width: 17px;
+  height: 13px;
+  position: relative;
+  top: 1px;
+  margin-left: 5px;
+  background: url(../imgs/green_r.png) no-repeat;
+}
+.lay-top_mservice .m-service_imgs {
+	font-size: 0;
+	padding: 13px 0;
+	border-bottom: 1px solid #DCDCDC;
+	text-align: left;
+}
+.lay-top_mservice .m-service_imgs span {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+}
+.lay-top_mservice .m-service_imgs span + span {
+	margin-left: 10px;
+}
+.lay-top_mservice .m-service_imgs span img {
+	width: 60px;
+	height: 60px;
 }
 
 /*仓储提包样式*/
@@ -3681,4 +3727,49 @@ margin-top: 20px;
 }
 .fill-sele-pur1 {
 	width: 165px;
+}
+
+/*代购详情*/
+.detail_col-6 {
+	display: inline-block;
+	margin-left: 30px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.detail_col-6 .m-buyer-info,
+.detail_col-6 span {
+	overflow: hidden;
+	float: left;
+	margin-left: 8px;
+}
+.m-order_table_details .m-order_tabletr .order-col-1 {
+	width: 300px;
+}
+.m-order_table_details .m-order_tabletr .order-col-2 {
+	width: 120px;
+}
+.m-order_table_details .m-order_tabletr .order-col-3 {
+	width: 100px;
+}
+.m-order_table_details .m-order_tabletr .order-col-4 {
+	width: 130px;
+}
+.m-order_table_details .m-order_tabletr .order-col-7 {
+	width: 178px;
+}
+.m-order_table_details .m-order_tabletr .order-col-8 {
+	width: 200px;
+}
+.m-order_table_details .m-order_tabletd::after {
+	left: 650px;
+}
+.m-order_table_details {
+	padding: 20px;
+	background-color: #fff;
+}
+.m-order_details-tit {
+	font-size: 14px;
+	line-height: 20px;
+	color: #F26D00;
+	margin-bottom: 10px;
 }

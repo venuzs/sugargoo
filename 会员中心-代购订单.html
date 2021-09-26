@@ -516,11 +516,25 @@
 					        								<div class="m-service_headname">Priority purchase$10.00</div>
 					        								<div class="m-service_headtxt">The service has been completed <i></i></div>
 					        							</div>
+					        							<div class="m-service_imgs" style="display: none;">
+					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
+					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
+					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
+					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
+					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
+					        							</div>
 					        						</li>
 					        						<li>
 					        							<div class="m-service_head">
 					        								<div class="m-service_headname">Priority purchase$10.00</div>
 					        								<div class="m-service_headtxt">The service has been completed <i></i></div>
+					        							</div>
+					        							<div class="m-service_imgs" style="display: none;">
+					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
+					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
+					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
+					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
+					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
 					        							</div>
 					        						</li>
 					        					</ul>
@@ -549,7 +563,7 @@
 												<i class="m-time-clock"></i><span>The order will be cancelled after </span><span class="base-color">3 hours, 56 minutes and 28 seconds</span>
 											</div>
 										</div>
-										<div class="m-order_tabletd">
+										<div class="m-order_tabletd cleared">
 											<div class="order-col-1">
 												<div class="m-order-pic">
 													<img src="imgs/demo/pro-list1.png" alt="" />
@@ -569,7 +583,7 @@
 											</div>
 											<div class="order-col-2">$39.00</div>
 											<div class="order-col-3">1</div>
-											<div class="order-col-4">$2.00<br/><span class="fz10 service-btn">service</span></div>
+											<div class="order-col-4 clearfix">$2.00<br/><span class="fz10 service-btn">service</span></div>
 											<div class="order-col-5"></div>
 											<div class="order-col-6">
 												<div class="m-buyer-info">
@@ -598,7 +612,7 @@
 												<span>Your order needs to be supplemented</span><span class="base-color"> by $18</span>
 											</div>
 										</div>
-										<div class="m-order_tabletd">
+										<div class="m-order_tabletd cleared">
 											<div class="order-col-1">
 												<div class="m-order-pic">
 													<img src="imgs/demo/pro-list2.png" alt="" />
@@ -618,7 +632,7 @@
 											</div>
 											<div class="order-col-2">$39.00</div>
 											<div class="order-col-3">1</div>
-											<div class="order-col-4">$2.00<br/><span class="fz10 service-btn">service</span></div>
+											<div class="order-col-4 clearfix">$2.00<br/><span class="fz10 service-btn">service</span></div>
 											<div class="order-col-5">Refund</div>
 											<div class="order-col-6">
 												<div class="m-buyer-info">
@@ -1061,6 +1075,10 @@
 			
 			// 表格弹框 9/24
 			$('.m-order_tabletd.cleared').append('<div style="clear: both;"></div>')
+			
+			$(document).on('click','.m-service_head',function () {
+				$(this).siblings('.m-service_imgs').toggle()
+			})
 			
 		})
 	</script>

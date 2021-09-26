@@ -3763,6 +3763,9 @@ margin-top: 20px;
 .m-order_table_details .m-order_tabletd::after {
 	left: 650px;
 }
+.m-order_table_details .m-order_tabletd + .m-order_tabletd::before {
+	width: 650px;
+}
 .m-order_table_details {
 	padding: 20px;
 	background-color: #fff;
@@ -3772,4 +3775,119 @@ margin-top: 20px;
 	line-height: 20px;
 	color: #F26D00;
 	margin-bottom: 10px;
+}
+.m-order_table_details .lay-top_mservice {
+	left: 23px;
+}
+.m-order_d_total {
+	margin-top: 14px;
+	font-size: 14px;
+	line-height: 37px;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: middle;
+}
+.m-order_d_total span {
+	font-size: 26px;
+	color: #F26D00;
+}
+.list-main-head {
+	padding-top: 15px;
+	line-height: 35px;
+	border-bottom: 1px solid #DCDCDC;
+	overflow: hidden;
+}
+.list-main-head .fl {
+	font-size: 16px;
+	color: #333;
+	line-height: 35px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.list-main-head .fl a {
+	margin: 0 10px;
+	font-size: 14px;
+}
+.list-main-head .fl a:hover {
+	color: #F26D00;
+}
+.list-main-head .fl a .price-sort {
+	display: inline-block;
+	width: 6px;
+	height: 4px;
+	background: url(../imgs/down.png) 100% no-repeat;
+	position: relative;
+	top: -2px;
+	margin-left: 4px;
+}
+.list-main-head .fl a .price-sort.active {
+	transform: rotate(180deg);
+}
+.list-main-head .fr {
+	font-size: 14px;
+	overflow: hidden;
+	zoom: 1;
+}
+.list-main-head .fr p {
+	float: left;
+	margin-right: 15px;
+}
+.list-main-head .fr .list-h-dots,
+.list-main-head .fr .list-v-dots {
+	float: left;
+	width: 18px;
+	height: 18px;
+	padding: 5px;
+	overflow: hidden;
+	cursor: pointer;
+	border: 1px solid #DCDCDC;
+}
+.list-main-head .fr .list-h-dots div {
+	float: left;
+	width: 5px;
+	height: 5px;
+	background-color: #D8D8D8;
+	margin: 1px 1px 0 0;
+}
+.list-main-head .fr .list-h-dots.active div {
+	background-color: #F26D00;
+}
+.list-main-head .fr .list-v-dots {
+	border-left: none;
+}
+.list-main-head .fr .list-v-dots div {
+	float: left;
+	width: 17px;
+	height: 4px;
+	background-color: #D8D8D8;
+	margin: 2px 0 0 0;
+}
+
+.m-order-d-info {
+	padding: 0 20px 40px;
+	background-color: #fff;
+	margin-top: 10px;
+}
+.m-order-d-list {
+	padding-top: 20px;
+}
+.m-order-d-list li {
+	font-size: 12px;
+	line-height: 20px;
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+.m-order-d-list li span {
+	float: left;
+	width: 156px;
+	text-align: right;
+	color: #999;
+}
+.m-order-d-list li p {
+	padding-left: 172px;
+}
+.m-order-d-list li p a {
+	color: #666;
+	margin-left: 20px;
+	text-decoration: underline;
 }

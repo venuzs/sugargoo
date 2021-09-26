@@ -557,7 +557,7 @@
 												<span>Your order needs to be supplemented</span><span class="base-color"> by $18</span>
 											</div>
 										</div>
-										<div class="m-order_tabletd">
+										<div class="m-order_tabletd cleared">
 											<div class="order-col-1">
 												<div class="m-order-pic">
 													<img src="imgs/demo/pro-list2.png" alt="" />
@@ -577,7 +577,51 @@
 											</div>
 											<div class="order-col-2">$39.00</div>
 											<div class="order-col-3">1</div>
-											<div class="order-col-4">$2.00<br/><span class="fz10">Fine photo</span></div>
+											<div class="order-col-4 clearfix">
+												$2.00<br/>
+												<span class="fz10">Fine photo</span>
+												<div class="service-modelwap">
+													<span class="fz10 service-btn">Value-added services</span>
+													<div class="lay-top-cont lay-top_mserviceadd">
+					        					<ul class="lay-coupon-drop">
+					        						<li>
+					        							<label class="icon-select"></label>
+					        							<div class="top_mserviceadd-mian">
+					        								<div class="top_mserviceadd-hd">
+					        									<span class="base-color">Clear shoe box</span>
+					        									<font>Service fee: </font>
+					        									<span class="base-color">$3 </span>
+					        								</div>
+					        								<p>Understand the necessity of shoes, in order to reduce the size and weight, and optimize the ability of international express delivery.</p>
+					        							</div>
+					        						</li>
+					        						<li>
+					        							<label class="icon-select"></label>
+					        							<div class="top_mserviceadd-mian">
+					        								<div class="top_mserviceadd-hd">
+					        									<span class="base-color">Packing reinforcement</span>
+					        									<font>Service fee: </font>
+					        									<span class="base-color">$3 </span>
+					        								</div>
+					        								<p>Understand the necessity of shoes, in order to reduce the size and weight, and optimize the ability of international express delivery.</p>
+					        							</div>
+					        						</li>
+					        						<li>
+					        							<label class="icon-select"></label>
+					        							<div class="top_mserviceadd-mian">
+					        								<div class="top_mserviceadd-hd">
+					        									<span class="base-color">Second photo</span>
+					        									<font>Service fee: </font>
+					        									<span class="base-color">$3 </span>
+					        								</div>
+					        								<p>Understand the necessity of shoes, in order to reduce the size and weight, and optimize the ability of international express delivery.</p>
+					        							</div>
+					        						</li>
+					        					</ul>
+					        					<a href="javascript:;" class="m-order-btn base-color">Confirm</a>
+					        				</div>
+				        				</div>
+											</div>
 											<div class="order-col-5">Refund</div>
 											<div class="order-col-6">
 												<div class="m-mesg-info">
@@ -925,6 +969,10 @@
 				var mh = $('.m-right-cont').height() - 40;
 				$('.m-left-cont').css('min-height', mh+'px');
 			}, 100)
+			
+			
+			// 表格弹框 9/24
+			$('.m-order_tabletd.cleared').append('<div style="clear: both;"></div>')
 		})
 	</script>
 </html>

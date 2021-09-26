@@ -3082,9 +3082,9 @@ div[class^='m-address-th'] {
 /*代购订单列表修改 9/24*/
 .service-btn {
 	display: inline-block;
-	padding: 0 8px;
+	padding: 2px 8px;
 	border: 1px solid #DCDCDC;
-	line-height: 18px;
+	line-height: 14px;
 	margin-top: 2px;
 }
 .service-modelwap {
@@ -3866,7 +3866,7 @@ margin-top: 20px;
 .m-order-d-info {
 	padding: 0 20px 40px;
 	background-color: #fff;
-	margin-top: 10px;
+	margin: 10px 0;
 }
 .m-order-d-list {
 	padding-top: 20px;
@@ -3890,4 +3890,330 @@ margin-top: 20px;
 	color: #666;
 	margin-left: 20px;
 	text-decoration: underline;
+}
+
+.lay-top_mserviceadd {
+	width: 740px;
+	top: 34px;
+	right: -340px;
+	padding-bottom: 20px;
+}
+.lay-top_mserviceadd::after {
+	display: none;
+}
+.lay-top_mserviceadd li {
+	overflow: hidden;
+	padding: 10px 0;
+	border-bottom: 1px solid #DCDCDC;
+	text-align: left;
+}
+.lay-top_mserviceadd li .icon-select {
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.lay-top_mserviceadd .top_mserviceadd-mian {
+	width: 700px;
+	float: left;
+	overflow: hidden;
+}
+.lay-top_mserviceadd .top_mserviceadd-hd {
+	font-size: 12px;
+	font-weight: bold;
+}
+.lay-top_mserviceadd .top_mserviceadd-hd font {
+	margin-left: 10px;
+}
+.lay-top_mserviceadd li p {
+	color: #999;
+	font-size: 12px;
+	font-size: 10px;
+}
+.lay-top_mserviceadd .m-order-btn {
+	width: 48px;
+	margin-top: 20px;
+}
+
+/*代购物流*/
+.m-order-d-wlli {
+	padding: 20px 60px 0;
+}
+.m-order-d-wuliu {
+	position: relative;
+	padding-left: 32px;
+	margin-bottom: 20px;
+}
+.m-order-d-wuliu .m-pic {
+	position: absolute;
+	top: 0;
+	left: -15px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.m-order-d-wuliu .m-pic img {
+	width: 100%;
+	height: 100%;
+}
+.m-order-d-wuliu .m-wuliu-mian {
+	display: inline-block;
+}
+.m-order-d-wuliu .m-wuliu-mian h6 {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: bold;
+}
+.m-order-d-wuliu .m-wuliu-mian p {
+	font-size: 10px;
+	line-height: 16px;
+}
+.m-order-d-wuliu .Copy_btn {
+	display: inline-block;
+	font-size: 12px;
+	line-height: 17px;
+	text-decoration: underline;
+	color: #666;
+	margin-left: 40px;
+	position: relative;
+	top: -6px;
+}
+.m-order-d-wlli li {
+	position: relative;
+	padding-left: 32px;
+	padding-bottom: 20px;
+	border-left: 1px solid #DCDCDC;
+}
+.m-order-d-wlli li:last-of-type {
+	border-left: none;
+}
+.m-order-d-wlli li .m-pic {
+	position: absolute;
+	top: 0;
+	left: -10px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	z-index: 9;
+}
+.m-order-d-wlli li .m-order-d-wlli-txt {
+	position: relative;
+	top: -5px;
+	font-size: 10px;
+	line-height: 16px;
+	color: #999;
+}
+.m-order-d-wlli li .m-order-d-wlli-txt div {
+	font-size: 12px;
+	line-height: 18px;
+	color: #666;
+}
+.m-order-d-wlli li .m-order-d-wlli-txt div.base-color {
+	color: #F26D00;
+}
+.m-order_table_details .m-order-btn {
+	min-width: 40px;
+	width: auto;
+}
+
+/*代购售后*/
+.m-newafter-tabs .m-newproduct_stateitem {
+	width: 33.3%;
+	font-size: 14px;
+	font-weight: normal;
+	color: #999;
+}
+.m-newafter-tabs .m-newproduct_stateitem label {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	border: 1px solid #D0D0D0;
+	text-align: center;
+	margin-right: 5px;
+	border-radius: 50%;
+	line-height: 23px;
+}
+.m-newafter-main {
+	padding: 50px 30px 55px;
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.m-newafter-main::after {
+	content: '';
+	position: absolute;
+	top: 50px;
+	bottom: 55px;
+	right: 330px;
+	width: 1px;
+	background-color: #DCDCDC;
+}
+.m-newafter-right {
+	float: right;
+	width: 280px;
+}
+.m-newafter-right h5 {
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 13px;
+	color: #333;
+	border-bottom: 1px solid #DCDCDC;
+}
+.m-newafter-right .m-newafter-pro {
+	padding: 15px 0;
+	border-bottom: 1px solid #DCDCDC;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.m-newafter-right .m-newafter-pro .m-pic {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 13px;
+}
+.m-newafter-right .m-newafter-pro p {
+	float: left;
+	width: 185px;
+	font-size: 12px;
+	line-height: 20px;
+	height: 80px;
+	overflow: hidden;
+}
+.m-newafter-right li {
+	font-size: 12px;
+	line-height: 20px;
+	margin-bottom: 8px;
+}
+.m-newafter-right li span {
+	color: #999;
+}
+.m-newafter-left {
+	padding-left: 20px;
+	float: left;
+	width: 740px;
+}
+.m-form-group {
+	margin-bottom: 10px;
+}
+.m-control-label {
+	float: left;
+	width: 123px;
+  text-align: right;
+  line-height: 30px;
+  padding-right: 0;
+  font-weight: bold;
+}
+.m-form-control {
+	padding-left: 135px;
+}
+
+.m-newafter-left-pro {
+	overflow: hidden;
+}
+.m-newafter-left-pro .m-pic {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 13px;
+}
+.m-newafter-left-prom {
+	float: left;
+	width: 485px;
+	font-size: 12px;
+	height: 18px;
+}
+.m-newafter-left-prom > div {
+	margin-top: 14px;
+	font-size: 12px;
+	line-height: 22px;
+	color: #666;
+}
+.m-newafter-left-prom > div span {
+	font-size: 16px;
+	color: #F26D00;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.fill-select570 .fill-select {
+	width: 570px;
+}
+.ipt-holder-has {
+	position: relative;
+}
+.ipt-holder-has .ipt-holder-txt {
+	position: absolute;
+	top: 0;
+	left: 143px;
+	font-size: 16px;
+	line-height: 28px;
+	color: #F26D00;
+}
+.fill-input500 {
+	width: 495px;
+	padding-left: 65px;
+}
+.fill-text550 {
+	width: 550px;
+	height: 85px;
+	resize: none;
+}
+.upload-btn {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #DCDCDC;
+	background: url(../imgs/up-butn.png);
+}
+.upload-btn-txt {
+	display: inline-block;
+	position: relative;
+	top: -8px;
+	margin-left: 10px;
+	font-size: 12px;
+	line-height: 17px;
+	color: #999;
+}
+.m-order-btn.largt {
+	width: auto;
+	display: inline-block;
+	padding: 10px 40px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+	background-color: #F26D00;
+}
+.m-newafter-2 .m-newafter-lock {
+	width: 38px;
+	height: 38px;
+	background: url(../imgs/m-lock.png) 45% 46% no-repeat;
+	border: 1px solid #F26D00;
+	border-radius: 50%;
+	margin: 116px auto 18px;
+}
+.m-newafter-2 h4 {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 600;
+	color: #F26D00;
+	text-align: center;
+}
+.m-newafter-2 h5 {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.m-newafter-2 p {
+	font-size: 12px;
+	color: #333333;
+	line-height: 17px;
+	margin-top: 10px;
+}
+.m-newafter-2 {
+	margin-bottom: 200px;
+	text-align: center;
+}
+.m-newafter-2 .m-order-btn {
+	width: auto;
+	margin-top: 18px;
 }

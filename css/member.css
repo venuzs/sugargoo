@@ -4217,3 +4217,85 @@ margin-top: 20px;
 	width: auto;
 	margin-top: 18px;
 }
+
+/*代购评价*/
+.m-order-d-pingj {
+	background-color: #fff;
+	padding: 0 20px 40px;
+}
+.m-order-d-pjinput,
+.m-order-d-pjmain {
+	padding: 47px 40px 40px 53px;
+	border-bottom: 1px solid #DCDCDC;
+}
+.m-order-d-pjinput .m-pic {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 13px;
+}
+.m-order-d-pjtext {
+	float: left;
+	width: 938px;
+}
+.m-order-d-pjtext textarea {
+	width: 914px;
+	height: 58px;
+	padding: 10px;
+	border: 1px solid #DCDCDC;
+	font-size: 12px;
+	line-height: 17px;
+	resize: none;
+}
+
+.m-order-d-pjmain {
+	padding-top: 20px;
+}
+.m-d-pj-info-left .m-pic {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 10px;
+}
+.m-d-pj-info-right {
+	width: 200px;
+	overflow: hidden;
+}
+.m-d-pj-info-right h6 {
+	font-size: 14px;
+	line-height: 20px;
+	color: #999;
+}
+.m-d-pj-info-right span {
+	display: inline-block;
+	width: 25px;
+	height: 24px;
+	background: url(../imgs/star-m.png) no-repeat;
+}
+.m-d-pj-info-right span.on {
+	background-image: url(../imgs/star-m-on.png);
+}
+.m-d-pj-labels {
+	width: 760px;
+	margin-top: 20px;
+	font-size: 0;
+}
+.m-d-pj-labels span {
+	display: inline-block;
+	padding: 0 10px;
+	border: 1px solid #DCDCDC;
+	line-height: 22px;
+	font-size: 12px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.m-d-pj-labels span.active {
+	color: #F26D00;
+	border-color: #F26D00;
+	background-color: #FFF3E9;
+} 
+.m-order-d-pjrol {
+	margin-top: 28px;
+	text-align: center;
+}

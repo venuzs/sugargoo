@@ -10,6 +10,7 @@ li{*vertical-align:top;}
 div,a,p,b,em,i,strong,span,img,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,input{margin:0;padding:0;}
 img{border:none;vertical-align:top;max-width: 100%;}
 strong{font-weight: normal;}
+textarea{font-family: "microsoft yahei";}
 
 .fl{float:left;}
 .fr{float:right;}

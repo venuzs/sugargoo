@@ -2,7 +2,7 @@
 <html>
 	<head>
 	    <meta charset="UTF-8" />
-	    <title>会员中心-代购订单</title>
+	    <title>会员中心-国际包裹申请售后</title>
 	    <link rel="stylesheet" type="text/css" href="./css/common.css" />
 	    <link rel="stylesheet" type="text/css" href="./css/member.css" />
 	    
@@ -289,7 +289,7 @@
 						    </div>
 						    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 						      <ul class="list-group">
-					          <li class="list-group-item current">Pending payment</li>
+					          <li class="list-group-item">Pending payment</li>
 					          <li class="list-group-item">To be paid</li>
 					          <li class="list-group-item">to be delivere</li>
 					          <li class="list-group-item">Refund</li>
@@ -304,7 +304,7 @@
 						    </div>
 						    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 						      <ul class="list-group">
-					          <li class="list-group-item">Have been received</li>
+					          <li class="list-group-item current">Have been received</li>
 					          <li class="list-group-item">Has been stored</li>
 					          <li class="list-group-item">Returned</li>
 					          <li class="list-group-item">Expired</li>
@@ -390,7 +390,7 @@
 					<div class="m-right-cont">
 						<div class="m-main-section">
 							<!--订单状态 tab-->
-							<section class="m-order_statelist">
+							<section class="m-order_statelist m-order_statelist__col6">
 								<div class="m-order_stateitem active">
 									<span>All</span>
 								</div>
@@ -402,12 +402,13 @@
 									<span>To be paid</span>
 								</div>
 								<div class="m-order_stateitem">
-									<span>To be delivered</span>
-									<label>3</label>
+									<span>Shipped</span>
 								</div>
 								<div class="m-order_stateitem">
-									<span>Refund</span>
-									<label>3</label>
+									<span>Be returned</span>
+								</div>
+								<div class="m-order_stateitem">
+									<span>Completed</span>
 								</div>
 							</section>
 							<!--搜索框-->
@@ -447,11 +448,10 @@
 							<section class="m-order_list">
 								<div class="m-order_tableheader clearfix">
 									<div class="order-col-1">Commodity</div>
-									<div class="order-col-2">Unit price</div>
 									<div class="order-col-3">Quantity</div>
-									<div class="order-col-4">Service</div>
-									<div class="order-col-5">Operating</div>
-									<div class="order-col-6">Buyer</div>
+									<div class="order-col-10">Service</div>
+									<div class="order-col-11">Logistics costs</div>
+									<div class="order-col-6">Messge</div>
 									<div class="order-col-7">Real payment</div>
 									<div class="order-col-8">Status</div>
 									<div class="order-col-9">Operating</div>
@@ -469,16 +469,17 @@
 								</div>
 								
 								<div class="m-order_table">
+									
 									<div class="m-order_tabletr">
 										<div class="m-order_tableth clearfix">
 											<div class="fl">
 												<i class="icon-select"></i>
 												<span class="m-order_number">Order number: 1462064833061948961</span>
-												<span class="base-color">Transshipment order</span>
 											</div>
-											<div class="fr"></div>
+											<div class="fr">
+											</div>
 										</div>
-										<div class="m-order_tabletd cleared">
+										<div class="m-order_tabletd">
 											<div class="order-col-1">
 												<div class="m-order-pic">
 													<img src="imgs/demo/pro-list1.png" alt="" />
@@ -490,64 +491,17 @@
 													<img src="imgs/demo/pro-list-4.png" alt="" />
 												</div>
 											</div>
-											<div class="order-col-2"></div>
 											<div class="order-col-3">38</div>
-											<div class="order-col-4 clearfix">
-												$30.00<br/>
-												<div class="service-modelwap">
-													<span class="fz10 service-btn">service</span>
-													<div class="lay-top-cont lay-top_mservice">
-					        					<ul class="lay-coupon-drop">
-					        						<li>
-					        							<div class="m-service_head">
-					        								<div class="m-service_headname">Free photo</div>
-					        								<div class="m-service_headtxt">The service has been completed <i></i></div>
-					        							</div>
-					        							<div class="m-service_imgs">
-					        								<span><img src="imgs/demo/de-leftinfo2.png"/></span>
-					        								<span><img src="imgs/demo/de-leftinfo2.png"/></span>
-					        								<span><img src="imgs/demo/de-leftinfo2.png"/></span>
-					        								<span><img src="imgs/demo/de-leftinfo2.png"/></span>
-					        								<span><img src="imgs/demo/de-leftinfo2.png"/></span>
-					        							</div>
-					        						</li>
-					        						<li>
-					        							<div class="m-service_head">
-					        								<div class="m-service_headname">Priority purchase$10.00</div>
-					        								<div class="m-service_headtxt">The service has been completed <i></i></div>
-					        							</div>
-					        							<div class="m-service_imgs" style="display: none;">
-					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
-					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
-					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
-					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
-					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
-					        							</div>
-					        						</li>
-					        						<li>
-					        							<div class="m-service_head">
-					        								<div class="m-service_headname">Priority purchase$10.00</div>
-					        								<div class="m-service_headtxt">The service has been completed <i></i></div>
-					        							</div>
-					        							<div class="m-service_imgs" style="display: none;">
-					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
-					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
-					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
-					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
-					        								<span><img src="imgs/demo/de-leftinfo3.png"/></span>
-					        							</div>
-					        						</li>
-					        					</ul>
-					        				</div>
-				        				</div>
+											<div class="order-col-10">$38.00<br/><span class="fz10">Packing reinforcement<br/> Vacuum packaging<br/> Package photos</span></div>
+											<div class="order-col-11"><img class="m-int-order" src="imgs/demo/delive-type4.png/" alt="" /><br/><span class="fz10">SAL</span><br/><span>¥259.00</span><br/><a href="javascript:;" class="base-color fz10 text-unline">Detail</a></div>
+											<div class="order-col-6">
+												
 											</div>
-											<div class="order-col-5"></div>
-											<div class="order-col-6"></div>
-											<div class="order-col-7">$30<br/><span class="fz10">Including freight ¥0.00</span></div>
-											<div class="order-col-8"><span class="base-color">Pending payment</span><br/><a href="javascript:;">order details</a></div>
+											<div class="order-col-7"><span class="line-center">$48</span></div>
+											<div class="order-col-8"><span>Completed</span><br/><a href="javascript:;">order details</a></div>
 											<div class="order-col-9">
-												<a href="javascript:;" class="m-order-btn base-color">Pay</a>
-												<a href="javascript:;" class="m-order-btn">cancel</a>
+												<a href="javascript:;" class="m-order-btn btn-nowrap">Comment</a>
+												<a href="javascript:;" class="m-order-btn btn-nowrap" id="afterSale">After sale</a>
 											</div>
 										</div>
 									</div>
@@ -557,127 +511,34 @@
 											<div class="fl">
 												<i class="icon-select"></i>
 												<span class="m-order_number">Order number: 1462064833061948961</span>
-												<span>TAOBAO：Fashion family</span>
 											</div>
 											<div class="fr">
-												<i class="m-time-clock"></i><span>The order will be cancelled after </span><span class="base-color">3 hours, 56 minutes and 28 seconds</span>
 											</div>
 										</div>
-										<div class="m-order_tabletd cleared">
+										<div class="m-order_tabletd">
 											<div class="order-col-1">
-												<i class="icon-select current"></i>
 												<div class="m-order-pic">
 													<img src="imgs/demo/pro-list1.png" alt="" />
 												</div>
-												<div class="m-order-proinfo">
-													<a href="javascript:;">
-														<p>Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super fire thick-soled wisdom smoked casual sneakers 251</p>
-														<div class="m-order-skuno">
-															Colour: Black  Size: L
-														</div>
-														<div class="m-order-probz">
-															<label>正</label>
-															<label>七</label>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="order-col-2">$39.00</div>
-											<div class="order-col-3">1</div>
-											<div class="order-col-4 clearfix">$2.00<br/><span class="fz10 service-btn">service</span></div>
-											<div class="order-col-5"></div>
-											<div class="order-col-6">
-												<div class="m-buyer-info">
-													<div class="m-buyer-infopic"><img src="imgs/demo/hot-avtr.png" alt="" /></div>
-													<p>tony</p>
-												</div>
-												<span>$2.00</span>
-											</div>
-											<div class="order-col-7">$43<br/><span class="fz10">Including freight ¥0.00</span></div>
-											<div class="order-col-8"><span class="base-color">Pending payment</span><br/><a href="javascript:;">order details</a></div>
-											<div class="order-col-9">
-												<a href="javascript:;" class="m-order-btn base-color">Pay</a>
-												<a href="javascript:;" class="m-order-btn">cancel</a>
-											</div>
-										</div>
-									</div>
-									
-									<div class="m-order_tabletr">
-										<div class="m-order_tableth clearfix">
-											<div class="fl">
-												<i class="icon-select"></i>
-												<span class="m-order_number">Order number: 1462064833061948961</span>
-												<span>TAOBAO：Fashion family</span>
-											</div>
-											<div class="fr">
-												<span>Your order needs to be supplemented</span><span class="base-color"> by $18</span>
-											</div>
-										</div>
-										<div class="m-order_tabletd cleared">
-											<div class="order-col-1">
-												<i class="icon-select"></i>
 												<div class="m-order-pic">
 													<img src="imgs/demo/pro-list2.png" alt="" />
 												</div>
-												<div class="m-order-proinfo">
-													<a href="javascript:;">
-														<p>Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super fire thick-soled wisdom smoked casual sneakers 251</p>
-														<div class="m-order-skuno">
-															Colour: Black  Size: L
-														</div>
-														<div class="m-order-probz">
-															<label>正</label>
-															<label>七</label>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="order-col-2">$39.00</div>
-											<div class="order-col-3">1</div>
-											<div class="order-col-4 clearfix">$2.00<br/><span class="fz10 service-btn">service</span></div>
-											<div class="order-col-5">Refund</div>
-											<div class="order-col-6">
-												<div class="m-buyer-info">
-													<div class="m-buyer-infopic"><img src="imgs/demo/hot-avtr.png" alt="" /></div>
-													<p>tony</p>
-												</div>
-												<span>$2.00</span>
-											</div>
-											<div class="order-col-7">$43<br/><span class="fz10">Including freight ¥0.00</span></div>
-											<div class="order-col-8"><span class="base-color">Pending payment</span><br/><a href="javascript:;">order details</a></div>
-											<div class="order-col-9">
-												<a href="javascript:;" class="m-order-btn base-color">Pay</a>
-												<a href="javascript:;" class="m-order-btn">cancel</a>
-											</div>
-										</div>
-										
-										<div class="m-order_tabletd">
-											<div class="order-col-1">
-												<i class="icon-select"></i>
 												<div class="m-order-pic">
-													<img src="imgs/demo/pro-list-3.png" alt="" />
-												</div>
-												<div class="m-order-proinfo">
-													<a href="javascript:;">
-														<p>Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super fire thick-soled wisdom smoked casual sneakers 251</p>
-														<div class="m-order-skuno">
-															Colour: Black  Size: L
-														</div>
-														<div class="m-order-probz">
-															<label>正</label>
-															<label>七</label>
-														</div>
-													</a>
+													<img src="imgs/demo/pro-list-4.png" alt="" />
 												</div>
 											</div>
-											<div class="order-col-2">$39.00</div>
-											<div class="order-col-3">1</div>
-											<div class="order-col-4">$2.00<br/><span class="fz10 service-btn">service</span></div>
-											<div class="order-col-5">Refund</div>
-											<div class="order-col-6"></div>
-											<div class="order-col-7"></div>
-											<div class="order-col-8"></div>
-											<div class="order-col-9"></div>
+											<div class="order-col-3">38</div>
+											<div class="order-col-10">$38.00<br/><span class="fz10">Packing reinforcement<br/> Vacuum packaging<br/> Package photos</span></div>
+											<div class="order-col-11"><img class="m-int-order" src="imgs/demo/delive-type4.png/" alt="" /><br/><span class="fz10">SAL</span><br/><span>¥259.00</span><br/><a href="javascript:;" class="base-color fz10 text-unline">Detail</a></div>
+											<div class="order-col-6">
+												
+											</div>
+											<div class="order-col-7"><span class="line-center">$48</span></div>
+											<div class="order-col-8"><span>Completed</span><br/><a href="javascript:;">order details</a></div>
+											<div class="order-col-9">
+												<a href="javascript:;" class="m-order-btn btn-nowrap">Comment</a>
+												<a href="javascript:;" class="m-order-btn btn-nowrap">After sale</a>
+											</div>
 										</div>
 									</div>
 									
@@ -686,77 +547,34 @@
 											<div class="fl">
 												<i class="icon-select"></i>
 												<span class="m-order_number">Order number: 1462064833061948961</span>
-												<span>TAOBAO：Fashion family</span>
 											</div>
 											<div class="fr">
 											</div>
 										</div>
 										<div class="m-order_tabletd">
 											<div class="order-col-1">
-												<i class="icon-select"></i>
+												<div class="m-order-pic">
+													<img src="imgs/demo/pro-list1.png" alt="" />
+												</div>
 												<div class="m-order-pic">
 													<img src="imgs/demo/pro-list2.png" alt="" />
 												</div>
-												<div class="m-order-proinfo">
-													<a href="javascript:;">
-														<p>Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super fire thick-soled wisdom smoked casual sneakers 251</p>
-														<div class="m-order-skuno">
-															Colour: Black  Size: L
-														</div>
-														<div class="m-order-probz">
-															<label>正</label>
-															<label>七</label>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="order-col-2">$39.00</div>
-											<div class="order-col-3">1</div>
-											<div class="order-col-4">$2.00<br/><span class="fz10 service-btn">service</span></div>
-											<div class="order-col-5">Refund</div>
-											<div class="order-col-6">
-												<div class="m-buyer-info">
-													<div class="m-buyer-infopic"><img src="imgs/demo/hot-avtr.png" alt="" /></div>
-													<p>tony</p>
-												</div>
-												<span>Free</span><br/>
-												<a href="javascript:;" class="m-order-btn base-color fz10">Evaluation</a>
-											</div>
-											<div class="order-col-7">$43<br/><span class="fz10">Including freight ¥0.00</span></div>
-											<div class="order-col-8"><span class="base-color">Pending payment</span><br/><a href="javascript:;">order details</a></div>
-											<div class="order-col-9">
-												<a href="javascript:;" class="m-order-btn base-color">Pay</a>
-												<a href="javascript:;" class="m-order-btn">cancel</a>
-											</div>
-										</div>
-										
-										<div class="m-order_tabletd">
-											<div class="order-col-1">
-												<i class="icon-select"></i>
 												<div class="m-order-pic">
-													<img src="imgs/demo/pro-list-3.png" alt="" />
-												</div>
-												<div class="m-order-proinfo">
-													<a href="javascript:;">
-														<p>Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super fire thick-soled wisdom smoked casual sneakers 251</p>
-														<div class="m-order-skuno">
-															Colour: Black  Size: L
-														</div>
-														<div class="m-order-probz">
-															<label>正</label>
-															<label>七</label>
-														</div>
-													</a>
+													<img src="imgs/demo/pro-list-4.png" alt="" />
 												</div>
 											</div>
-											<div class="order-col-2">$39.00</div>
-											<div class="order-col-3">1</div>
-											<div class="order-col-4">$2.00<br/><span class="fz10 service-btn">service</span></div>
-											<div class="order-col-5">Refund</div>
-											<div class="order-col-6"></div>
-											<div class="order-col-7"></div>
-											<div class="order-col-8"></div>
-											<div class="order-col-9"></div>
+											<div class="order-col-3">38</div>
+											<div class="order-col-10">$38.00<br/><span class="fz10">Packing reinforcement<br/> Vacuum packaging<br/> Package photos</span></div>
+											<div class="order-col-11"><img class="m-int-order" src="imgs/demo/delive-type4.png/" alt="" /><br/><span class="fz10">SAL</span><br/><span>¥259.00</span><br/><a href="javascript:;" class="base-color fz10 text-unline">Detail</a></div>
+											<div class="order-col-6">
+												
+											</div>
+											<div class="order-col-7"><span class="line-center">$48</span></div>
+											<div class="order-col-8"><span>Completed</span><br/><a href="javascript:;">order details</a></div>
+											<div class="order-col-9">
+												<a href="javascript:;" class="m-order-btn btn-nowrap">Comment</a>
+												<a href="javascript:;" class="m-order-btn btn-nowrap">After sale</a>
+											</div>
 										</div>
 									</div>
 									
@@ -765,44 +583,31 @@
 											<div class="fl">
 												<i class="icon-select"></i>
 												<span class="m-order_number">Order number: 1462064833061948961</span>
-												<span>TAOBAO：Fashion family</span>
 											</div>
 											<div class="fr">
 											</div>
 										</div>
 										<div class="m-order_tabletd">
 											<div class="order-col-1">
+												<div class="m-order-pic">
+													<img src="imgs/demo/pro-list1.png" alt="" />
+												</div>
 												<div class="m-order-pic">
 													<img src="imgs/demo/pro-list2.png" alt="" />
 												</div>
-												<div class="m-order-proinfo">
-													<a href="javascript:;">
-														<p>Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super fire thick-soled wisdom smoked casual sneakers 251</p>
-														<div class="m-order-skuno">
-															Colour: Black  Size: L
-														</div>
-														<div class="m-order-probz">
-															<label>正</label>
-															<label>七</label>
-														</div>
-													</a>
+												<div class="m-order-pic">
+													<img src="imgs/demo/pro-list-4.png" alt="" />
 												</div>
 											</div>
-											<div class="order-col-2">$39.00</div>
-											<div class="order-col-3">1</div>
-											<div class="order-col-4">$2.00<br/><span class="fz10 service-btn">service</span></div>
-											<div class="order-col-5"><span class="base-color">Refunding</span></div>
-											<div class="order-col-6">
-												<div class="m-buyer-info">
-													<div class="m-buyer-infopic"><img src="imgs/demo/hot-avtr.png" alt="" /></div>
-													<p>tony</p>
-												</div>
-												<span>Free</span><br/>
-											</div>
-											<div class="order-col-7">$43<br/><span class="fz10">Including freight ¥0.00</span></div>
-											<div class="order-col-8"><span class="base-color">Refund</span><br/><a href="javascript:;">order details</a></div>
+											<div class="order-col-3">38</div>
+											<div class="order-col-10">$38.00<br/><span class="fz10">Packing reinforcement<br/> Vacuum packaging<br/> Package photos</span></div>
+											<div class="order-col-11"><img class="m-int-order" src="imgs/demo/delive-type4.png/" alt="" /><br/><span class="fz10">SAL</span><br/><span>¥259.00</span><br/><a href="javascript:;" class="base-color fz10 text-unline">Detail</a></div>
+											<div class="order-col-6"></div>
+											<div class="order-col-7"><span class="line-center">$38</span></div>
+											<div class="order-col-8"><span>Completed</span><br/><a href="javascript:;">order details</a></div>
 											<div class="order-col-9">
-												<a href="javascript:;" class="m-order-btn disabled">Refund</a>
+												<a href="javascript:;" class="m-order-btn btn-nowrap">Comment</a>
+												<a href="javascript:;" class="m-order-btn btn-nowrap">After sale</a>
 											</div>
 										</div>
 									</div>
@@ -812,7 +617,6 @@
 											<div class="fl">
 												<i class="icon-select"></i>
 												<span class="m-order_number">Order number: 1462064833061948961</span>
-												<span>SUGARGOO</span>
 											</div>
 											<div class="fr">
 											</div>
@@ -820,34 +624,28 @@
 										<div class="m-order_tabletd">
 											<div class="order-col-1">
 												<div class="m-order-pic">
-													<img src="imgs/SketchPngfbf00bab28683f93b8132.png" alt="" />
+													<img src="imgs/demo/pro-list1.png" alt="" />
 												</div>
-												<div class="m-order-proinfo">
-													<a href="javascript:;">
-														<p>Genuine leather old shoes women's autumn 2020 new wild net red Korean version of super fire thick-soled wisdom smoked casual sneakers 251</p>
-														<div class="m-order-skuno">
-															Colour: Black  Size: L
-														</div>
-														<div class="m-order-probz">
-															<label>正</label>
-															<label>七</label>
-														</div>
-													</a>
+												<div class="m-order-pic">
+													<img src="imgs/demo/pro-list2.png" alt="" />
+												</div>
+												<div class="m-order-pic">
+													<img src="imgs/demo/pro-list-4.png" alt="" />
 												</div>
 											</div>
-											<div class="order-col-2">$39.00</div>
-											<div class="order-col-3">1</div>
-											<div class="order-col-4">$0.00</div>
-											<div class="order-col-5"></div>
+											<div class="order-col-3">38</div>
+											<div class="order-col-10">$38.00<br/><span class="fz10">Packing reinforcement<br/> Vacuum packaging<br/> Package photos</span></div>
+											<div class="order-col-11"><img class="m-int-order" src="imgs/demo/delive-type4.png/" alt="" /><br/><span class="fz10">SAL</span><br/><span>¥259.00</span><br/><a href="javascript:;" class="base-color fz10 text-unline">Detail</a></div>
 											<div class="order-col-6"></div>
-											<div class="order-col-7">$43</div>
-											<div class="order-col-8"><span class="base-color">To be delivered</span><br/><a href="javascript:;">order details</a></div>
+											<div class="order-col-7"><span class="line-center">$38</span></div>
+											<div class="order-col-8"><span>Completed</span><br/><a href="javascript:;">order details</a></div>
 											<div class="order-col-9">
-												<a href="javascript:;" class="m-order-btn base-color">Pay</a>
-												<a href="javascript:;" class="m-order-btn">cancel</a>
+												<a href="javascript:;" class="m-order-btn btn-nowrap">Comment</a>
+												<a href="javascript:;" class="m-order-btn btn-nowrap">After sale</a>
 											</div>
 										</div>
 									</div>
+									
 								</div>
 								<!-- 翻页 -->
 								<div class="g-container">
@@ -873,51 +671,6 @@
 					</div>
 				</div>
 			</div>
-			
-			<!--Recommend similar products for you-->
-		<div class="jp-content">
-			<div class="product-recommend-list">
-				<h6>Recommend similar products for you</h6>
-				<ul class="y_colloclist owl-carousel">
-					<li class="active"> <!-- 选中当前商品给li添加类名 .active -->
-						<div class="y_pic"><a href="#"><img src="imgs/demo/de-pro1.png"></a></div>
-						<p class="y_name"><a href="#">Xiaomi Redmi Note 9 Pro 4G Smartphone Snapdragon 720G Octa Core 2.3GHz 6.67 inch 64MP + 8MP + 5MP + 2MP Camera 5020mAh Battery EU Version - White 6GB+128GB</a></p>
-						<strong class="color_0b285b">$482.98</strong>
-					</li>
-					<li>
-						<div class="y_pic"><a href="#"><img src="imgs/demo/de-pro2.png"></a></div>
-						<p class="y_name"><a href="#">Xiaomi Redmi Note 9 Pro 4G Smartphone Snapdragon 720G Octa Core 2.3GHz 6.67 inch 64MP + 8MP + 5MP + 2MP Camera 5020mAh Battery EU Version - White 6GB+128GB</a></p>
-						<strong class="color_0b285b">$482.98</strong>
-					</li>
-					<li>
-						<div class="y_pic"><a href="#"><img src="imgs/demo/de-pro3.png"></a></div>
-						<p class="y_name"><a href="#">Xiaomi Redmi Note 9 Pro 4G Smartphone Snapdragon 720G Octa Core 2.3GHz 6.67 inch 64MP + 8MP + 5MP + 2MP Camera 5020mAh Battery EU Version - White 6GB+128GB</a></p>
-						<strong class="color_0b285b">$482.98</strong>
-					</li>
-					<li>
-						<div class="y_pic"><a href="#"><img src="imgs/demo/de-pro4.png"></a></div>
-						<p class="y_name"><a href="#">Xiaomi Redmi Note 9 Pro 4G Smartphone Snapdragon 720G Octa Core 2.3GHz 6.67 inch 64MP + 8MP + 5MP + 2MP Camera 5020mAh Battery EU Version - White 6GB+128GB</a></p>
-						<strong class="color_0b285b">$482.98</strong>
-					</li>
-					<li>
-						<div class="y_pic"><a href="#"><img src="imgs/demo/de-pro5.png"></a></div>
-						<p class="y_name"><a href="#">Xiaomi Redmi Note 9 Pro 4G Smartphone Snapdragon 720G Octa Core 2.3GHz 6.67 inch 64MP + 8MP + 5MP + 2MP Camera 5020mAh Battery EU Version - White 6GB+128GB</a></p>
-						<strong class="color_0b285b">$482.98</strong>
-					</li>
-					<li>
-						<div class="y_pic"><a href="#"><img src="imgs/demo/de-pro3.png"></a></div>
-						<p class="y_name"><a href="#">Xiaomi Redmi Note 9 Pro 4G Smartphone Snapdragon 720G Octa Core 2.3GHz 6.67 inch 64MP + 8MP + 5MP + 2MP Camera 5020mAh Battery EU Version - White 6GB+128GB</a></p>
-						<strong class="color_0b285b">$482.98</strong>
-					</li>
-					<li>
-						<div class="y_pic"><a href="#"><img src="imgs/demo/de-pro2.png"></a></div>
-						<p class="y_name"><a href="#">Xiaomi Redmi Note 9 Pro 4G Smartphone Snapdragon 720G Octa Core 2.3GHz 6.67 inch 64MP + 8MP + 5MP + 2MP Camera 5020mAh Battery EU Version - White 6GB+128GB</a></p>
-						<strong class="color_0b285b">$482.98</strong>
-					</li>
-				</ul>
-			</div>
-		</div>
-       
 		
 			<div class="g-container g-baseCont mt_60">
 				<div class="jp-content">
@@ -1009,34 +762,24 @@
 
 					</div>	
         </div>
-      </div>
+      </div>  
       
-      <!--2021/9/11 新增支付二维码弹框-->
       <!--模态框-->
-      <div class="el-message-box__wrapper el-message-centerpaybox__wrapper" id="elMessage2" style="z-index: 2067; display: block;">
+      <div class="el-message-box__wrapper el-message-warningbox__wrapper" id="elMessage2" style="z-index: 2067; display: none;">
       	<div class="v-modal" tabindex="0"></div>
       	<div class="el-message-box">
-      		<div class="el-message-box__content">
-      			<div class="m-centerpaybox">
-      				<div class="m-centerpaybox__hearder">
-      					sugargoo scan code to pay
-      					<a href="javascript:;" class="m-centerpaybox__close">x</a>
-      				</div>
-      				<div class="m-centerpaybox__body">
-      					<h4>$5548.00</h4>
-      					<p>Payment amount</p>
-      					<div class="m-centerpaybox__ma">
-      						<img src="imgs/ewm.png" alt="" />
-      					</div>
-      					<div class="m-centerpay-info">
-      						Please scan the QR code to complete the payment
-      					</div>
-      				</div>
-      				<div class="m-centerpaybox__footer">
-      					<p class="base-color">Effective countdown: <span>32:56</span></p>
-      					<p>It will be closed automatically at the time, please reapply for payment!</p>
-      				</div>
+      		<div class="el-message-box__header">
+      			<div class="el-message-box__title">
+      				<span>You cannot initiate after-sales application</span>
       			</div>
+      			<button type="button" aria-label="Close" class="el-message-box__headerbtn">x</button>
+      		</div>
+      		<div class="el-message-box__content">
+      			<div class="initiate-after-sales">
+      				<img src="imgs/SketchPng96008111d601dcef96ce78e7b647ccaa5b1137935cdee5e0332bd6a828362569.png" alt="" />
+      				<p>Dear, your order may have <span class="base-color">exceeded the 45-day after-sale </span>guarantee period, thank you for your understanding</p>
+      			</div>
+      			
       		</div>
       	</div>
       </div>
@@ -1072,17 +815,8 @@
 				$('.m-left-cont').css('min-height', mh+'px');
 			}, 100)
 			
-			
-			$('.m-centerpaybox__close').click(function () {
-				$.elHide('#elMessage2')
-			})
-			
-			
-			// 表格弹框 9/24
-			$('.m-order_tabletd.cleared').append('<div style="clear: both;"></div>')
-			
-			$(document).on('click','.m-service_head',function () {
-				$(this).siblings('.m-service_imgs').toggle()
+			$('#afterSale').click(function () {
+				$.elShow('#elMessage2')
 			})
 			
 		})

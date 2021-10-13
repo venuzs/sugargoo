@@ -1017,6 +1017,13 @@ label, input, button, select, textarea {
 	overflow: hidden;
 	background-color: #fff;
 }
+.m-order_tabletd .order-col-1 .icon-select {
+	float: left;
+	margin: 30px 0 0 10px;
+}
+.m-order_tabletd .order-col-1 .m-order-proinfo {
+	width: 145px;
+}
 
 .m-order_tabletd + .m-order_tabletd::before {
 	content: '';
@@ -1099,6 +1106,11 @@ label, input, button, select, textarea {
 	font-size: 12px;
 	white-space: pre-wrap;
 	word-break: break-all;
+}
+.m-order-btn.btn-nowrap {
+	width: auto;
+	min-width: 40px;
+	padding: 5px;
 }
 .m-order_tabletd .disabled {
 	color: #999;
@@ -2294,6 +2306,9 @@ div[class^='m-address-th'] {
 
 .m-order_statelist__col7 .m-order_stateitem {
 	width: 14.2%;
+}
+.m-order_statelist__col6 .m-order_stateitem {
+	width: 16.6%;
 }
 
 .order-col-w300 {
@@ -4671,4 +4686,86 @@ margin-top: 20px;
 .m-order-d-pjrol {
 	margin-top: 28px;
 	text-align: center;
+}
+
+.initiate-after-sales {
+	padding: 30px 0 20px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 18px;
+}
+.initiate-after-sales img {
+	width: 40px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+.m-newafter-left-pro .m-pic {
+	border: 1px solid #DCDCDC;
+}
+.m-newafter-main__internation::after {
+	display: none;
+}
+
+/*国际包裹退换货*/
+.Negotiation-history {
+	width: 1200px;
+	height: 80px;
+	background: #FFF6E6;
+	overflow: hidden;
+}
+.Negotiation-history .fl {
+	width: 60%;
+}
+.Negotiation-history .Negotiation-history-icon {
+	float: left;
+	width: 30px;
+	height: 30px;
+	background: url(../imgs/m-lock.png) 45% 46% no-repeat;
+    border: 1px solid #F26D00;
+    border-radius: 50%;
+    margin-left: 88px;
+    margin-top: 24px;
+    -webkit-background-size: 8px 16px;
+    background-size: 8px 16px;
+}
+.Negotiation-history p {
+	float: left;
+	line-height: 80px;
+	font-size: 16px;
+	color: #F26D00;
+	font-weight: bold;
+	margin-left: 14px;
+}
+.Negotiation-history a {
+	margin: 25px 37px 0 0;
+	width: 150px;
+	height: 30px;
+	border: 1px solid #666666;
+	font-size: 14px;
+	font-weight: 500;
+	color: #333333;
+	text-align: center;
+	line-height: 30px;
+}
+.Negotiation-history ~ .m-newafter-main__internation {
+	padding-top: 40px;
+}
+.uploaded-imgs {
+	width: 60px;
+	height: 60px;
+	margin-right: 6px;
+}
+
+.m-from-cnr-tips {
+	font-size: 12px;
+	line-height: 17px;
+	color: #F26D00;
+	margin: 10px 0 15px;
+}
+.m-from-cnr-tips p + p {
+	margin-top: 4px;
+}
+.m-newafter-left_100 {
+	width: 100%;
+	box-sizing: border-box;
 }

@@ -4769,3 +4769,48 @@ margin-top: 20px;
 	width: 100%;
 	box-sizing: border-box;
 }
+
+
+.m-order_search_list .m-order_tabletd::after {
+	display: none;
+}
+.m-order_search_list .m-order_tableheader .order-col-1 {
+	width: 290px !important;
+}
+.m-order_search_list .order-col-w300 p{
+	padding: 0 30px 0 10px;
+}
+.m-order_search_list .order-col-2 {
+	width: 70px;
+	white-space: pre-wrap;
+	word-break: break-all;
+	text-align: center;
+}
+.m-order_search_list .order-col-3 {
+	width: 110px;
+}
+.m-order_search_list .order-col-w134 {
+	width: 110px;
+}
+.m-order_search_list .order-col-w124 {
+	width: 80px;
+}
+.m-order_search_list .order-col-9 {
+	text-align: center;
+	width: 160px;
+}
+.m-order_search_list .order-col-9 .m-order-btn {
+	width: 30px;
+}
+.m-order_search_list .order-col-9 .m-order-btn.base-color + .m-order-btn {
+	margin-left: 10px;
+}
+.m-order_search_list .order-col-9 .m-order-btn:last-of-type {
+	width: 90px;
+	margin-left: 0px!important ;
+}
+.m-order_search_list .m-order_tabletd .order-col-2,
+.m-order_search_list .m-order_tabletd .order-col-3,
+.m-order_search_list .m-order_tabletd .order-col-4 {
+	padding-top: 15px;
+}
